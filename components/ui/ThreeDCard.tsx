@@ -43,7 +43,7 @@ export function ThreeDCardDemo() {
 
   return (
     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <CardContainer className="inter-var">
+      <CardContainer className="inter-var w-full md:w-11/12">
         <audio
           ref={slashSoundRef}
           src="/katana-slash.mp3"

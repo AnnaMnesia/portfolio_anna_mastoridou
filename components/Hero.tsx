@@ -13,7 +13,7 @@ const Hero = () => {
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="white"
         />
-        <div className=" p-4 max-w-7xl  mx-auto relative z-10 w-full pt-20 md:pt-0 flex flex-col items-left justify-left">
+        <div className="p-4 max-w-7xl  mx-auto relative z-10 w-full pt-20 md:pt-0 flex flex-col items-left justify-left">
           <h1 className="text-5xl md:text-6xl font-bold text-left max-w-4xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 tracking-tight">
             Shaping the Web, <br /> One Experience at a Time
           </h1>
@@ -34,16 +34,22 @@ const Hero = () => {
           <p className="mt-4 font-normal text-base sm:text-lg md:text-xl lg:text-xl text-stone-400 max-w-2xl text-left">
             Some people call me Annasama.
           </p>
-
-          <a href="#projects">
-            <MagicButton
-              title="Show my craft"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex align-center gap-4">
+            <a href="#projects">
+              <MagicButton
+                title="Show my craft"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="mailto:annamast@windowslive.com">
+              <button className="mt-10 w-36 px-4 py-3 rounded-md border border-neutral-300 bg-neutral-200 text-black-100 hover:-translate-y-1 transform transition duration-200 hover:shadow-md cursor-pointer text-sm font-medium">
+                Reach Out
+              </button>
+            </a>
+          </div>
         </div>
-        <div className="relative z-20">
+        <div className="relative z-20 hidden lg:block">
           <ThreeDCardDemo />
         </div>
       </div>
