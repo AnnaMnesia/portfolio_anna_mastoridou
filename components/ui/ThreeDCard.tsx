@@ -50,7 +50,7 @@ export function ThreeDCardDemo() {
           preload="auto"
           loop
         />
-        <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-stone-100/[0.1] dark:bg-black dark:border-white/[0.5] border-black/[0.5] w-auto sm:w-[30rem] h-auto rounded-xl p-3 border">
+        <CardBody className=" relative group/card dark:hover:shadow-2xl dark:hover:shadow-stone-100/[0.4] w-auto sm:w-[30rem] h-auto rounded-lg p-3 ">
           <CardItem translateZ="100" className="w-full">
             <Image
               src="/gintama.gif"
