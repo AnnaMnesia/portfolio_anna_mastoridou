@@ -28,8 +28,9 @@ export const Card = React.memo(
         <div
           onClick={() => router.push(`/project/${project.id}`)}
           className={cn(
-            "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-96 w-full transition-all duration-300 ease-out border-5 border-gray-100 cursor-pointer",
-            hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
+            "relative rounded-xl bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-96 w-full transition-all duration-300 ease-out cursor-pointer",
+            hovered !== null && hovered !== index && "blur-sm scale-[0.98]",
+            "before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-br before:from-[rgba(255,255,255,0.1)] before:to-[rgba(0,0,0,0.2)] before:blur-lg before:pointer-events-none shadow-lg dark:shadow-[0_4px_12px_rgba(0,0,0,0.5),_0_2px_4px_rgba(0,0,0,0.2)]"
           )}
         >
           <Image
@@ -47,14 +48,12 @@ export const Card = React.memo(
             hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
           )}
         >
-          <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-            {project.title}
-          </h3>
+          <h3 className="text-xl font-semibold">{project.title}</h3>
           <div className="flex justify-between items-center w-full">
-            <p className="text-md text-gray-600 dark:text-gray-400">
+            <p className="text-md font-light text-gray-400 dark:text-gray-400">
               {project.name}
             </p>
-            <p className="text-md text-gray-500 dark:text-gray-300">
+            <p className="text-md font-light text-gray-400 dark:text-gray-400">
               {project.year}
             </p>
           </div>

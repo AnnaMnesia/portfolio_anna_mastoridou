@@ -43,20 +43,20 @@ export function ThreeDCardDemo() {
 
   return (
     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <CardContainer className="inter-var w-full md:w-11/12">
+      <CardContainer className="inter-var w-80 relative group">
         <audio
           ref={slashSoundRef}
           src="/katana-slash.mp3"
           preload="auto"
           loop
         />
-        <CardBody className=" relative group/card dark:hover:shadow-2xl dark:hover:shadow-stone-100/[0.4] w-auto sm:w-[30rem] h-auto rounded-lg p-3 ">
+        <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-gray-100/[0.4] w-auto sm:w-[30rem] h-auto rounded-xl before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-br before:from-[rgba(255,255,255,0.1)] before:to-[rgba(0,0,0,0.2)] before:blur-lg before:pointer-events-none shadow-lg dark:shadow-[0_4px_12px_rgba(0,0,0,0.5),_0_2px_4px_rgba(0,0,0,0.2)]">
           <CardItem translateZ="100" className="w-full">
             <Image
               src="/gintama.gif"
               height="1000"
               width="1000"
-              className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+              className="h-full w-90 object-cover rounded-xl group-hover/card:shadow-xl"
               alt="Gintama GIF"
               unoptimized
             />

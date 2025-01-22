@@ -1,40 +1,28 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
-import MagicButton from "./MagicButton";
+import MagicButton from "./ui/MagicButton";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50 "
-        />
-      </div>
-
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+    <footer className="mx-auto max-w-4xl pt-20 pb-10" id="contact">
+      <div className="flex flex-col max-w-4xl items-end">
+        <h1 className="text-lg font-light text-gray-400">
+          STEP FORWARD AND CONTACT ME{" "}
+          <span className="text-gray-400 ">today</span>
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
-        </p>
-        <a href="mailto:annamast@windowslive.com">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
+
+        <a
+          href="mailto:mastoridouanna@icloud.com"
+          className="underline max-w-2xl text-end text-3xl hover:text-gray-400"
+        >
+          Let’s craft something with precision and purpose.
+          mastoridouanna@icloud.com
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 Anna Mastoridou
+          OR find me forging my craft, one line of code at a time.
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

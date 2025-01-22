@@ -2,7 +2,7 @@ export const navItems = [
   {name: 'Anna.', link:'/'},
   { name: "About", link: "#about" },
   { name: "Craft", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 

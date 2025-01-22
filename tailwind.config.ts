@@ -28,18 +28,18 @@ const config = {
     extend: {
       colors: {
         black: {
-          DEFAULT: "#EBECEE",
-          100: "#EBECEE",
+          DEFAULT: "#0E0E11",
+          100: "#0E0E11",
           200: "rgba(0, 0, 0, 0.3)",
           300: "rgba(255, 255, 255, 0.125)",
         },
         white: {
-          DEFAULT: "#FFF",
-          100: "##6A6A6A",
-          200: "###A6A6A6",
+          DEFAULT: "#EBECEE",
+          100: "#707581",
+          200: "##A6A6A6",
         },
         blue: {
-          "100": "##E1E1E1",
+          "100": "#E1E1E1",
         },
         purple: "#888888",
         border: "hsl(var(--border))",

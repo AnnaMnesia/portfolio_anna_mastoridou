@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { TextHoverEffect } from "./TextHoverEffect";
 import { Meteors } from "./MeteorsBg";
 import GridGlobe from "./GridGlobe";
-import MagicButton from "../MagicButton";
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -153,14 +153,14 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 5 && (
-             <div className="mt-5 h-full w-full dark:bg-black-100 bg-white dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]
+            <div
+              className="mt-5 h-full w-full dark:bg-black-100 bg-white dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]
             "
             >
-            <div className=" h-[20rem] flex items-center justify-center absolute z-2">
-              <TextHoverEffect text="SCOOP" />
+              <div className=" h-[20rem] flex items-center justify-center absolute z-2">
+                <TextHoverEffect text="SCOOP" />
+              </div>
             </div>
-            </div>
-
           )}
           {id === 6 && (
             <div className="mt-5 relative">

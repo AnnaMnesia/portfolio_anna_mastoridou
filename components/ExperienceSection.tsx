@@ -2,74 +2,56 @@ import React from "react";
 
 const experiences = [
   {
-    period: "Sept 2023 - Present",
-    role: "Product Designer",
-    company: "Design Scientist",
-    logo: "/path/to/design-scientist-logo.png",
+    period: "Jul 2024 - Dec 2024",
+    role: "Full Stack Developer Intern",
+    company: "Coursfy",
+    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHkNgCUe7wdbQ/company-logo_200_200/company-logo_200_200/0/1735210231647/coursfy_logo?e=1745452800&v=beta&t=Yvb_Lb8geygpCF9-GIAtLuqZSgdQx6X7D0fXVmpmALk",
   },
   {
-    period: "Sept 2023 - April 2024",
-    role: "Senior Product Designer",
-    company: "Orbit",
-    logo: "/path/to/orbit-logo.png",
-    note: "acquired by Postman",
+    period: "Jan 2024 - Mar 2024",
+    role: "Full Stack Developer and Designer Intern",
+    company: "Rotoy ApS",
+    logo: "https://rotoy.dk/fav.png",
   },
   {
-    period: "May 2023 - Dec 2023",
-    role: "Lead Product Designer",
-    company: "ZST",
-    logo: "/path/to/zst-logo.png",
+    period: "May 2023 - Jul 2023",
+    role: "Full Stack Developer Tutor",
+    company: "DCI Digital Career Institute",
+    logo: "https://digitalcareerinstitute.org/wp-content/uploads/2022/04/DCI_COLORS_June24_logo_wordmark_blue.svg",
   },
   {
-    period: "Oct 2022 - May 2023",
-    role: "Lead Product Designer",
-    company: "Borderless Delivery",
-    logo: "/path/to/borderless-logo.png",
-  },
-  {
-    period: "2022",
-    role: "Product Designer",
-    company: "awesomic",
-    logo: "/path/to/awesomic-logo.png",
-  },
-  {
-    period: "May 2021 - Sept 2022",
-    role: "UX Designer",
-    company: "CBit Industries",
-  },
-  {
-    period: "March 2021 - May 2022",
-    role: "Product Designer",
-    company: "Suburban Fiberco (Legend Internet)",
+    period: "Nov 2019 - Dec 2020",
+    role: "Online Marketing Assistant / Social Media",
+    company: "Bengar GmbH",
+    logo: "https://cdn02.plentymarkets.com/zlrq6w0vcvw9/frontend/logo/bengar_logo.png",
   },
 ];
 
 const ExperienceSection = () => {
   return (
-    <section className="py-20 px-6 max-w-5xl mx-auto">
-      <h3 className="text-xs font-semibold tracking-widest text-gray-500 mb-2">
-        WHERE I HAVE PUT IN VALUE
-      </h3>
-      <h2 className="text-4xl font-semibold text-gray-900 mb-6">
-        My experience so far
-      </h2>
-
-      <div className="grid gap-4">
+    <section id="experience" className="py-20">
+      <div className="relative">
+        <div className="absolute -top-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15"></div>
+        <div id="projects" className="relative  mx-auto max-w-4xl">
+          <h3 className="text-lg font-light tracking-widest text-gray-400 mb-2">
+            WHERE I HAVE PUT IN VALUE
+          </h3>
+          <h2 className="text-4xl font-light mb-6">My experience so far</h2>
+        </div>
+        <div className="absolute -bottom-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15 "></div>
+      </div>
+      <div className="grid gap-4 py-5  mx-auto max-w-4xl">
         {experiences.map((exp, index) => (
-          <div
-            key={index}
-            className="flex justify-between items-start text-gray-800"
-          >
-            <p className="text-sm text-gray-600 min-w-[150px]">{exp.period}</p>
+          <div key={index} className="flex justify-between items-start">
+            <p className="text-sm text-gray-400 min-w-[150px]">{exp.period}</p>
+
             <div className="flex items-center gap-2">
               <p className="text-sm font-medium">{exp.role}</p>
+              <p className="text-md text-gray-400">at</p>
               {exp.logo && (
                 <img src={exp.logo} alt={exp.company} className="h-4" />
               )}
-              <p className="text-sm text-gray-600">{exp.company}</p>
-              {exp.note && (
-                <span className="italic text-gray-500 text-xs">{exp.note}</span>
-              )}
+              <p className="text-sm ">{exp.company}</p>
             </div>
           </div>
         ))}
