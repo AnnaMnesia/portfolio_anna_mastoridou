@@ -13,7 +13,7 @@ const Hero = () => {
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="white"
         />
-        <div className="p-4 max-w-7xl  mx-auto relative z-10 w-full pt-20 md:pt-0 flex flex-col items-left justify-left">
+        <div className="p-4 max-w-4xl  mx-auto relative z-10 w-full pt-20 md:pt-0 flex flex-col items-left justify-left">
           <h1 className="text-4xl  md:text-6xl font-bold text-left max-w-4xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 tracking-tight">
             Shaping the Web, <br /> One Experience at a Time
           </h1>
