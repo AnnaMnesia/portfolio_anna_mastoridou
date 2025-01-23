@@ -1,23 +1,21 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
-import { ThreeDCardDemo } from "./ui/ThreeDCard";
-
+import {HeroGifCards} from './ui/HeroGifCards'
 const Hero = () => {
   return (
-    <div className="pb-16 pt-36">
-      <div className="h-[40rem] mx-auto max-w-4xl flex md:items-center gap-2 relative">
+    <div className="pb-10 md:pt-36 pt-20 ">
+      <div className="h-[32rem] md:h-[40rem] mx-auto max-w-4xl flex md:items-center gap-2 relative">
         <Spotlight
           className="-top-20 left-20 md:left-50 md:-top-50"
           fill="#EBECEE"
         />
-        <div className="p-4 relative z-10 w-full pt-20 md:pt-0 flex flex-col items-left justify-left ">
-          <h1 className="text-3xl  md:text-4xl font-bold text-left bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-gray-400 bg-opacity-50 tracking-tight">
+        <div className="p-4 z-2 max-w-2xl pt-20 md:pt-0 flex flex-col items-left justify-left">
+          <h1 className="text-4xl  md:text-4xl font-bold text-left bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-gray-400 bg-opacity-50 tracking-tight">
             Shaping the Web, <br /> One Experience at a Time
           </h1>
 
-          <p className="mt-4 font-normal text-base sm:text-md md:text-md lg:text-md text-gray-400 text-left">
+          <p className="mt-4 font-normal text-sm md:text-md text-gray-400 text-left">
             Hello there! I&apos;m Anna, a{" "}
             <span className="text-white">full-stack developer</span> and
             self-proclaimed
@@ -30,7 +28,7 @@ const Hero = () => {
             <span className="text-white">GIF</span> to capture every moment of
             excitement.
           </p>
-          <p className="mt-4 font-normal text-base sm:text-md md:text-md lg:text-md text-gray-400 text-left">
+          <p className="mt-4 font-normal tex-sm md:text-md text-gray-400 text-left">
             Some people call me Annasama.
           </p>
           <div className="flex align-center gap-4">
@@ -48,8 +46,8 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="relative z-20 hidden lg:block">
-          <ThreeDCardDemo />
+        <div className="absolute right-20 z-2 hidden lg:block w-40">
+          <HeroGifCards/>
         </div>
       </div>
     </div>

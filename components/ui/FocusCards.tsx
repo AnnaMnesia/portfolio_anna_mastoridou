@@ -28,16 +28,15 @@ export const Card = React.memo(
         <div
           onClick={() => router.push(`/project/${project.id}`)}
           className={cn(
-            "relative rounded-xl bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-96 w-full transition-all duration-300 ease-out cursor-pointer",
-            hovered !== null && hovered !== index && "blur-sm scale-[0.98]",
-            "before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-br before:from-[rgba(255,255,255,0.1)] before:to-[rgba(0,0,0,0.2)] before:blur-lg before:pointer-events-none shadow-lg dark:shadow-[0_4px_12px_rgba(0,0,0,0.5),_0_2px_4px_rgba(0,0,0,0.2)]"
+            "group relative rounded-xl p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 shadow-lg overflow-hidden h-60 md:h-96 w-full transition-all duration-300 ease-out cursor-pointer", // Border styles added here
+            hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
           )}
         >
           <Image
             src={project.src}
             alt={project.title}
             fill
-            className="object-cover absolute inset-0"
+            className="rounded-lg absolute object-cover p-2 inset-0"
           />
         </div>
 

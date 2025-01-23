@@ -50,7 +50,7 @@ export function ThreeDCardDemo() {
           preload="auto"
           loop
         />
-        <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-gray-100/[0.4] w-auto sm:w-[30rem] h-auto rounded-xl before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-br before:from-[rgba(255,255,255,0.1)] before:to-[rgba(0,0,0,0.2)] before:blur-lg before:pointer-events-none shadow-lg dark:shadow-[0_4px_12px_rgba(0,0,0,0.5),_0_2px_4px_rgba(0,0,0,0.2)]">
+        <CardBody className="relative group/card dark:hover:shadow-3xl dark:hover:shadow-gray-100/[0.6] w-auto sm:w-[30rem] h-auto rounded-xl before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-br before:from-[rgba(255,255,255,0.1)] before:to-[rgba(0,0,0,0.2)] before:blur-lg before:pointer-events-none shadow-2xl dark:shadow-[0_10px_30px_rgba(0,0,0,0.7),_0_4px_12px_rgba(0,0,0,0.4)]">
           <CardItem translateZ="100" className="w-full">
             <Image
               src="/gintama.gif"
