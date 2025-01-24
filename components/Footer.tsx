@@ -4,7 +4,7 @@ import { GifCard } from "./ui/GifCard";
 const Footer = () => {
   const gifIndex = 5;
   return (
-    <footer id="contact" className="pt-5 pb-24">
+    <footer id="contact" className="pt-10 pb-24">
       <div className="relative">
         <div className="absolute top-0 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15"></div>
         <div className="mx-auto max-w-4xl py-10">

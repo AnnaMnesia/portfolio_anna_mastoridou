@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import {Testimonials} from '@/components/Testimonials'; 
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -54,6 +55,7 @@ const Home = () => {
         <Hero />
         <Projects />
         <Experience />
+        <Testimonials/>
         <Footer />
       </div>
     </main>
