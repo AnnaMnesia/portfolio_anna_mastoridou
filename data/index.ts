@@ -105,10 +105,84 @@ export const experiences = [
   },
 ];
 
+export const stack = [
+  {
+    id: 1,
+    name: "Next.js",
+    image: "/nextjs.svg",
+  },
+  {
+    id: 2,
+    name: "React",
+    image: "/reactjs.svg",
+  },
+  {
+    id: 3,
+    name: "Express.js",
+    image: "/expressjs.svg",
+  },
+  {
+    id: 4,
+    name: "Node.js",
+    image: "/nodejs.svg",
+  },
+
+  {
+    id: 5,
+    name: "JavaScript",
+    image: "/javascript.svg",
+  },
+  {
+    id: 6,
+    name: "TypeScript",
+    image: "/typescript.svg",
+  },
+  {
+    id: 7,
+    name: "Git",
+    image: "/git.svg",
+  },
+  {
+    id: 8,
+    name: "Webflow",
+    image: "/webflow.svg",
+  },
+  {
+    id: 9,
+    name: "HTML5",
+    image: "/html.svg",
+  },
+  {
+    id: 10,
+    name: "CSS3",
+    image: "/css.svg",
+  },
+  {
+    id: 11,
+    name: "SASS",
+    image: "/sass.svg",
+  },
+  {
+    id: 12,
+    name: "Figma",
+    image: "/figma.svg",
+  },
+  {
+    id: 13,
+    name: "Framer",
+    image: "/framer.svg",
+  },
+  {
+    id: 14,
+    name: "MongoDB",
+    image: "/mongodb.svg",
+  },
+];
+
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
     link: "https://github.com/AnnaMnesia",
   },
   {
