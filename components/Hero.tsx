@@ -1,7 +1,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
-import {HeroGifCards} from './ui/HeroGifCards'
+import { HeroGifCards } from "./ui/HeroGifCards";
 const Hero = () => {
   return (
     <div className="pb-10 md:pt-36 pt-20 ">
@@ -11,8 +11,12 @@ const Hero = () => {
           fill="#EBECEE"
         />
         <div className="p-4 z-2 max-w-2xl pt-20 md:pt-0 flex flex-col items-left justify-left">
-          <h1 className="text-4xl  md:text-4xl font-bold text-left bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-gray-400 bg-opacity-50 tracking-tight">
-            Shaping the Web, <br /> One Experience at a Time
+          <h1 className="text-[2rem] md:text-[2.6rem] font-bold text-left bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-gray-400 bg-opacity-50 tracking-tight">
+            Shaping the Web,
+            <span className="block leading-[1.25]">
+              {" "}
+              One Experience at a Time
+            </span>
           </h1>
 
           <p className="mt-4 font-normal text-sm md:text-md text-gray-400 text-left">
@@ -47,7 +51,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute right-20 z-2 hidden lg:block w-40">
-          <HeroGifCards/>
+          <HeroGifCards />
         </div>
       </div>
     </div>
