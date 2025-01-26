@@ -2,7 +2,7 @@ export const navItems = [
   { name: "Anna.", link: "/" },
   { name: "Craft", link: "#projects" },
   { name: "Experience", link: "#experience" },
-  { name: "About", link: "#about" },
+  { name: "About", link: "/about" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -14,6 +14,13 @@ export const gifs = [
   "/katana.gif",
   "/ruruni.gif",
 ];
+
+export const images = [
+    "/museum.jpg",
+    "/closeup.jpg",
+    "/gym.png",
+    "/anna.jpeg",
+  ];
 
 export const projects = [
   {
@@ -176,6 +183,42 @@ export const stack = [
     id: 14,
     name: "MongoDB",
     image: "/mongodb.svg",
+  },
+];
+
+export const favorites = [
+  {
+    id: 1,
+    img: "/frodo.jpeg",
+    gif: "",
+    name: "The Lord of the Rings: The Return of the King",
+    current: "Best movie of all time",
+    des: "I could be Frodo, but let’s be real—I’m definitely Aragorn.",
+  },
+  {
+    id: 2,
+    img: "",
+    gif: "",
+    name: "Jujutsu Kaisen",
+    current: "Current Anime",
+    des: "Gojo and Geto are iconic, but let’s be real—Sukuna is the real MVP. Anti-hero? Sure, but he's definitely the strongest one! (Plot armor is overrated anyway!)",
+  },
+  {
+    id: 3,
+    img1: "",
+    img2: "",
+    name: "Ikigai, The Creative Act",
+    current: "I'm currently Reading",
+    des: "Ikigai: The Japanese secret to a long and happy life. The Creative Act: A Way of Being",
+    by: "Ken Mogi, Rick Rubin",
+  },
+  {
+    id: 4,
+    img1: "",
+    img2:"",
+    name: "The Witcher 3: Wild Hunt",
+    current: "Favorite RPG game",
+    des: "Geralt's adventures never get old, but I’m definitely counting down the days until The Blood of Dawnwalker drops. Let's hope it's as epic as a Witcher quest!",
   },
 ];
 
