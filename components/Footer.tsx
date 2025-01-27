@@ -22,18 +22,18 @@ const Footer = () => {
               mastoridouanna@icloud.com
             </a>
           </div>
-          <div className="flex mt-10 md:flex-row flex-col justify-between md:items-end tems-start gap-4 pb-5">
+          <div className="flex mt-14 md:flex-row flex-col justify-between md:items-end tems-start gap-4 pb-1">
             <p className="text-base md:font-normal font-light">
               OR find me forging my craft, one line of code at a time.
             </p>
 
             <div className="flex items-center md:gap-3 gap-6">
               {socialMedia.map((info) => (
-                <a // Wrap each social media info in an anchor tag 'a'
+                <a
                   key={info.id}
-                  href={info.link} // Set the href attribute to the link URL
-                  target="_blank" // Open the link in a new tab
-                  rel="noopener noreferrer" // Security best practices
+                  href={info.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
                 >
                   <img src={info.img} alt="icons" width={20} height={20} />

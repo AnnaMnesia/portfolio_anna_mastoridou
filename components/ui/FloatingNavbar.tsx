@@ -1,13 +1,13 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   motion,
   AnimatePresence,
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
-import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
 
 export const FloatingNav = ({
   navItems,
@@ -22,6 +22,34 @@ export const FloatingNav = ({
 }) => {
   const { scrollYProgress } = useScroll();
   const [visible, setVisible] = useState(true);
+  const [currentPath, setCurrentPath] = useState<string>("");
+  const router = useRouter();
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setCurrentPath(window.location.pathname);
+    }
+  }, []);
+
+  const handleNavigation = (link: string) => {
+    if (link.startsWith("#")) {
+      // Handle in-page scrolling
+      if (currentPath === "/") {
+        const element = document.getElementById(link.substring(1)); // Remove '#' and find the element
+        if (element) {
+          element.scrollIntoView({
+            behavior: "smooth",
+          });
+        }
+      } else {
+        // Navigate to the homepage and scroll to the section
+        router.push(`/${link}`);
+      }
+    } else {
+      // Navigate to a different page
+      router.push(link);
+    }
+  };
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     if (typeof current === "number") {
@@ -63,17 +91,19 @@ export const FloatingNav = ({
           border: "1px solid rgba(235, 236, 238, 0.2)",
         }}
       >
-        {navItems.map((navItem: any, idx: number) => (
-          <Link
-            key={`link=${idx}`}
-            href={navItem.link}
+        {navItems.map((navItem, idx) => (
+          <button
+            key={`navItem-${idx}`}
+            onClick={() => handleNavigation(navItem.link)}
             className={cn(
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="text-sm md:text-lg !cursor-pointer">{navItem.name}</span>
-          </Link>
+            <span className="text-sm md:text-lg !cursor-pointer">
+              {navItem.name}
+            </span>
+          </button>
         ))}
       </motion.div>
     </AnimatePresence>

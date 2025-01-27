@@ -27,7 +27,7 @@ export const projects = [
     id: 1,
     title: "3D Solar System Planets to Explore",
     name: "SpaceSystem",
-    src: "/p1.svg", // Changed 'img' to 'src'
+    src: "/p1.svg", 
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
     year: "2023",
@@ -36,7 +36,7 @@ export const projects = [
     id: 2,
     title: "Video Conferencing App",
     name: "Yoom",
-    src: "/p2.svg", // Changed 'img' to 'src'
+    src: "/p2.svg", 
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
     year: "2023",
@@ -45,7 +45,7 @@ export const projects = [
     id: 3,
     title: "AI Image SaaS - Canva Application",
     name: "Imaginify",
-    src: "/p3.svg", // Changed 'img' to 'src'
+    src: "/p3.svg", 
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
     year: "2023",
@@ -54,7 +54,7 @@ export const projects = [
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     name: "Apple",
-    src: "/p4.svg", // Changed 'img' to 'src'
+    src: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
     year: "2023",
@@ -186,42 +186,6 @@ export const stack = [
   },
 ];
 
-export const favorites = [
-  {
-    id: 1,
-    img: "/frodo.jpeg",
-    gif: "",
-    name: "The Lord of the Rings: The Return of the King",
-    current: "Best movie of all time",
-    des: "I could be Frodo, but let’s be real—I’m definitely Aragorn.",
-  },
-  {
-    id: 2,
-    img: "",
-    gif: "",
-    name: "Jujutsu Kaisen",
-    current: "Current Anime",
-    des: "Gojo and Geto are iconic, but let’s be real—Sukuna is the real MVP. Anti-hero? Sure, but he's definitely the strongest one! (Plot armor is overrated anyway!)",
-  },
-  {
-    id: 3,
-    img1: "",
-    img2: "",
-    name: "Ikigai, The Creative Act",
-    current: "I'm currently Reading",
-    des: "Ikigai: The Japanese secret to a long and happy life. The Creative Act: A Way of Being",
-    by: "Ken Mogi, Rick Rubin",
-  },
-  {
-    id: 4,
-    img1: "",
-    img2:"",
-    name: "The Witcher 3: Wild Hunt",
-    current: "Favorite RPG game",
-    des: "Geralt's adventures never get old, but I’m definitely counting down the days until The Blood of Dawnwalker drops. Let's hope it's as epic as a Witcher quest!",
-  },
-];
-
 export const socialMedia = [
   {
     id: 1,
@@ -234,3 +198,39 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/anna-mastoridou-280189271/",
   },
 ];
+
+// export const favorites = [
+//   {
+//     id: 1,
+//     img: "/frodo.jpeg",
+//     gif: "",
+//     name: "The Lord of the Rings: The Return of the King",
+//     current: "Best movie of all time",
+//     des: "I could be Frodo, but let’s be real—I’m definitely Aragorn.",
+//   },
+//   {
+//     id: 2,
+//     img: "",
+//     gif: "",
+//     name: "Jujutsu Kaisen",
+//     current: "Current Anime",
+//     des: "Gojo and Geto are iconic, but let’s be real—Sukuna is the real MVP. Anti-hero? Sure, but he's definitely the strongest one! (Plot armor is overrated anyway!)",
+//   },
+//   {
+//     id: 3,
+//     img1: "",
+//     img2: "",
+//     name: "Ikigai, The Creative Act",
+//     current: "I'm currently Reading",
+//     des: "Ikigai: The Japanese secret to a long and happy life. The Creative Act: A Way of Being",
+//     by: "Ken Mogi, Rick Rubin",
+//   },
+//   {
+//     id: 4,
+//     img1: "",
+//     img2:"",
+//     name: "The Witcher 3: Wild Hunt",
+//     current: "Favorite RPG game",
+//     des: "Geralt's adventures never get old, but I’m definitely counting down the days until The Blood of Dawnwalker drops. Let's hope it's as epic as a Witcher quest!",
+//   },
+// ];

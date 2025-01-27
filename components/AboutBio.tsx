@@ -3,7 +3,7 @@ import {AboutFavList} from "./ui/AboutFavList";
 
 const AboutBio = () => {
   return (
-    <div id="projects" className="relative pt-10 pb-20">
+    <div className="relative pt-10 pb-20">
       <div className="relative">
         <div className="absolute top-12 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15"></div>
         <div className="relative mx-auto max-w-4xl">

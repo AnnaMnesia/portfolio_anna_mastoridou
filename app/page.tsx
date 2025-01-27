@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import {Testimonials} from '@/components/Testimonials'; 
+import { Testimonials } from "@/components/Testimonials";
 import { Stack } from "@/components/Stack";
 import { DevQuote } from "@/components/DevQuote";
 
@@ -45,7 +45,6 @@ const Home = () => {
             scrolled ? "opacity-100" : "opacity-0"
           }`}
         ></div>
-
         {/* Blur effect on bottom (disappears when at the bottom) */}
         <div
           className={`fixed bottom-0 left-0 w-full h-12 backdrop-blur-md z-10 transition-all duration-300 ${
@@ -57,9 +56,9 @@ const Home = () => {
         <Hero />
         <Projects />
         <Experience />
-        <Stack/>
-        <DevQuote/>
-        <Testimonials/>
+        <Stack />
+        <DevQuote />
+        <Testimonials />
         <Footer />
       </div>
     </main>

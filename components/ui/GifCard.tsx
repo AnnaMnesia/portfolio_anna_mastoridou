@@ -1,5 +1,4 @@
 import React from "react";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { gifs } from "@/data";
@@ -42,7 +41,7 @@ export const GifCard: React.FC<GifCardsProps> = ({ index }) => {
             alt="GIF"
             width="900"
             height="550"
-            className="rounded-lg h-40 w-fit object-cover"
+            className="rounded-lg h-[9rem] w-[15rem] object-cover"
             unoptimized
           />
         </motion.div>
