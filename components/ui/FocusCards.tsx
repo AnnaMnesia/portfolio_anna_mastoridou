@@ -26,7 +26,8 @@ export const Card = React.memo(
       >
         {/* Clickable Card */}
         <div
-          onClick={() => router.push(`/project/${project.id}`)}
+          // onClick={() => router.push(`/project/${project.id}`)}
+          onClick={() => router.push(project.link)}
           className={cn(
             "group relative rounded-xl p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 shadow-lg overflow-hidden h-60 md:h-96 w-full transition-all duration-300 ease-out cursor-pointer", // Border styles added here
             hovered !== null && hovered !== index && "blur-sm scale-[0.98]"

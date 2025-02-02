@@ -15,19 +15,14 @@ export const gifs = [
   "/ruruni.gif",
 ];
 
-export const images = [
-    "/museum.jpg",
-    "/closeup.jpg",
-    "/gym.png",
-    "/anna.jpeg",
-  ];
+export const images = ["/museum.jpg", "/closeup.jpg", "/gym.png", "/anna.jpeg"];
 
 export const projects = [
   {
     id: 1,
     title: "3D Solar System Planets to Explore",
     name: "SpaceSystem",
-    src: "/p1.svg", 
+    src: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
     year: "2023",
@@ -36,19 +31,18 @@ export const projects = [
     id: 2,
     title: "Video Conferencing App",
     name: "Yoom",
-    src: "/p2.svg", 
+    src: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
     year: "2023",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    name: "Imaginify",
-    src: "/p3.svg", 
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-    year: "2023",
+    title: "Storage Management - Dashboard",
+    name: "Metafortify",
+    src: "/p3.png",
+    link: "https://metafortify.vercel.app/sign-in",
+    year: "2024",
   },
   {
     id: 4,
