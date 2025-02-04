@@ -20,22 +20,6 @@ export const images = ["/museum.jpg", "/closeup.jpg", "/gym.png", "/anna.jpeg"];
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    name: "SpaceSystem",
-    src: "/p1.svg",
-    link: "/ui.earth.com",
-    year: "2023",
-  },
-  {
-    id: 2,
-    title: "Video Conferencing App",
-    name: "Yoom",
-    src: "/p2.svg",
-    link: "/ui.yoom.com",
-    year: "2023",
-  },
-  {
-    id: 3,
     title: "Storage Management Platform",
     name: "Metafortify",
     src: "/p3.png",
@@ -43,11 +27,27 @@ export const projects = [
     year: "2024",
   },
   {
-    id: 4,
+    id: 2,
     title: "Animated Apple Iphone 3D Website",
     name: "Apple",
     src: "/p4.svg",
-    link: "/ui.apple.com",
+    link: "https://iphone-apple-uiux.vercel.app/",
+    year: "2024",
+  },
+  {
+    id: 3,
+    title: "3D Solar System Planets to Explore",
+    name: "SpaceSystem",
+    src: "/p1.svg",
+    link: "/ui.earth.com",
+    year: "2023",
+  },
+  {
+    id: 4,
+    title: "Video Conferencing App",
+    name: "Yoom",
+    src: "/p2.svg",
+    link: "/ui.yoom.com",
     year: "2023",
   },
 ];
