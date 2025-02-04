@@ -69,7 +69,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Anna’s ability to tackle complex development challenges with precision and creativity is remarkable. Her integration of front-end and back-end technologies consistently leads to excellent project outcomes. Anna’s collaborative spirit and problem-solving mindset make her an invaluable asset to any team. She brings unmatched skill, dedication, and reliability, ensuring seamless development processes from start to finish. If you're looking for a dependable Full Stack Developer, Anna is a top choice for any organization!",
+      "Anna’s dedication and team-oriented approach make her truly remarkable. She works hard to support marketing campaigns, always bringing creativity, enthusiasm, and a strong work ethic. Anna’s positive attitude, problem-solving mindset, and strong communication skills make her an invaluable part of any team. She is reliable, focused, adaptable, and always ready to contribute to success. If you're looking for a hardworking and a great team member, Anna is an excellent and the right choice for any organization!",
     name: "Onur Cakmak",
     designation: "CEO of Bengar GmbH",
     src: "/bengar_logo.png",
