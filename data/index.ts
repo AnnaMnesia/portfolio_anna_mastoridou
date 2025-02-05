@@ -15,7 +15,7 @@ export const gifs = [
   "/ruruni.gif",
 ];
 
-export const images = ["/museum.jpg", "/closeup.jpg", "/gym.png", "/anna.jpeg"];
+export const images = ["/museum.jpg", "/closeup.png", "/gym.png", "/anna.jpeg"];
 
 export const projects = [
   {
