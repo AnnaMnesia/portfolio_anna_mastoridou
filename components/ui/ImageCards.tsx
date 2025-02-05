@@ -36,6 +36,7 @@ export const ImageCards = () => {
               width="500"
               height="500"
               className="rounded-lg h-64 w-44 md:h-64 md:w-44 object-cover flex-shrink-0"
+              unoptimized
             />
           </motion.div>
         ))}

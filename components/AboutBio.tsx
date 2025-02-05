@@ -1,5 +1,5 @@
 import { ImageCards } from "./ui/ImageCards";
-import {AboutFavList} from "./ui/AboutFavList";
+import { AboutFavList } from "./ui/AboutFavList";
 
 const AboutBio = () => {
   return (
@@ -27,8 +27,8 @@ const AboutBio = () => {
           <h2 className="mt-14 text-sm md:text-sm font-light text-gray-400 mb-2">
             CURRENT PURSUITS, PASSIONS AND FAVORITES
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">       
-           <AboutFavList/>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <AboutFavList />
           </div>
         </div>
         <div className="absolute -bottom-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15 "></div>
