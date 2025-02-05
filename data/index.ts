@@ -39,7 +39,7 @@ export const projects = [
     title: "Modern Nextjs Portfolio",
     name: "Anna Mastoridou",
     src: "/p5.svg",
-    link: "/ui.earth.com",
+    link: "https://portfolio-anna-mastoridou.vercel.app",
     year: "2024",
   },
   {
@@ -47,7 +47,7 @@ export const projects = [
     title: "A Digital Gallery Celebrating Art & Beyond",
     name: "100 Days of Art",
     src: "/p2.svg",
-    link: "/ui.yoom.com",
+    link: "https://100-days-of-art.vercel.app",
     year: "2023",
   },
 ];
