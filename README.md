@@ -14,7 +14,7 @@
 
   <br />
     <p>
-      🔗 <strong>Live Demo:</strong> <a href="">Click here to view the app live!</a>
+      🔗 <strong>Live Demo:</strong> <a href="https://portfolio-anna-mastoridou.vercel.app/">Click here to view the app live!</a>
     </p>
   <br />
 </div>
