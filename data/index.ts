@@ -50,6 +50,14 @@ export const projects = [
     link: "https://100-days-of-art.vercel.app",
     year: "2023",
   },
+  {
+    id: 5,
+    title: "React Notes App",
+    name: "Notes",
+    src: "/p6.png",
+    link: "https://react-notes-app-weld.vercel.app",
+    year: "2022",
+  },
 ];
 
 export const testimonials = [
