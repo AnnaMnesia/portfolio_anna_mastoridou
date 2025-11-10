@@ -79,7 +79,7 @@ export const testimonials = [
 export const experiences = [
   {
     period: "Jan 2025 - Present",
-    role: "Frontend Developer Freelance",
+    role: "Frontend Developer",
     company: "Freelance",
     logo: "",
   },

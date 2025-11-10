@@ -28,7 +28,7 @@ const Experience = () => {
 
               <div className="flex md:flex-row flex-col md:items-center gap-2">
                 <p className="text-sm font-medium">{exp.role}</p>
-                <div className='flex gap-1 md:items-center '>
+                <div className="flex gap-1 md:items-center ">
                   <p className="text-md text-gray-400">at</p>
                   {exp.logo && (
                     <img src={exp.logo} alt={exp.company} className="h-4" />
