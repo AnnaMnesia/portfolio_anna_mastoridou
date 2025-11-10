@@ -78,19 +78,25 @@ export const testimonials = [
 
 export const experiences = [
   {
+    period: "Jan 2025 - Present",
+    role: "Frontend Developer Freelance",
+    company: "Freelance",
+    logo: "",
+  },
+  {
     period: "Jul 2024 - Dec 2024",
-    role: "Full Stack Developer Intern",
+    role: "Frontend Developer",
     company: "Coursfy",
-    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHkNgCUe7wdbQ/company-logo_200_200/company-logo_200_200/0/1735210231647/coursfy_logo?e=1745452800&v=beta&t=Yvb_Lb8geygpCF9-GIAtLuqZSgdQx6X7D0fXVmpmALk",
+    logo: "https://thehub-io.imgix.net/files/s3/20250128142631-850b8cdbc94261b0373a009b6618424a.png?fit=crop&w=300&h=300&auto=format&q=60",
   },
   {
     period: "Jan 2024 - Mar 2024",
-    role: "Front End Developer & Designer Intern",
+    role: "Frontend Developer & Designer Intern",
     company: "Rotoy ApS",
     logo: "https://rotoy.dk/fav.png",
   },
   {
-    period: "May 2023 - Jul 2023",
+    period: "Nov 2022 - Oct 2023",
     role: "Full Stack Developer Tutor",
     company: "DCI Digital Career Institute",
     logo: "https://digitalcareerinstitute.org/wp-content/uploads/2022/04/DCI_COLORS_June24_logo_wordmark_blue.svg",
