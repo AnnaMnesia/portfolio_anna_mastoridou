@@ -20,6 +20,14 @@ export const images = ["/museum.jpg", "/closeup.png", "/gym.png", "/anna.jpeg"];
 export const projects = [
   {
     id: 1,
+    title: "Training Load Tracker",
+    name: "TrackerX",
+    src: "/p7.png",
+    link: "https://training-load-tracker.vercel.app",
+    year: "2025",
+  },
+  {
+    id: 2,
     title: "Storage Management Platform",
     name: "Metafortify",
     src: "/p3.png",
@@ -27,7 +35,7 @@ export const projects = [
     year: "2025",
   },
   {
-    id: 2,
+    id: 3,
     title: "Animated Apple Iphone 3D Website",
     name: "Apple",
     src: "/p4.svg",
@@ -35,7 +43,7 @@ export const projects = [
     year: "2024",
   },
   {
-    id: 3,
+    id: 4,
     title: "Modern Nextjs Portfolio",
     name: "Anna Mastoridou",
     src: "/p5.svg",
@@ -43,7 +51,7 @@ export const projects = [
     year: "2024",
   },
   {
-    id: 4,
+    id: 5,
     title: "A Digital Gallery Celebrating Art & Beyond",
     name: "100 Days of Art",
     src: "/p2.svg",
@@ -51,7 +59,7 @@ export const projects = [
     year: "2023",
   },
   {
-    id: 5,
+    id: 6,
     title: "React Notes App",
     name: "Notes",
     src: "/p6.png",
