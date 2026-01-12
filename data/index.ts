@@ -208,7 +208,7 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/anna-mastoridou-280189271/",
+    link: "https://www.linkedin.com/in/anna-mastoridou-280189271",
   },
 ];
 
