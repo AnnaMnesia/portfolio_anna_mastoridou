@@ -10,29 +10,37 @@ const Hero = () => {
           className="-top-20 left-20 md:left-50 md:-top-50"
           fill="#EBECEE"
         />
-        <div className="p-4 z-2 max-w-2xl pt-20 md:pt-0 flex flex-col items-left justify-left">
-          <h1 className="text-[2rem] md:text-[2.6rem] font-bold text-left bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-gray-400 bg-opacity-50 tracking-tight">
-            Shaping the Web,
-            <span className="block leading-[1.25]">
+        <div className="p-4 z-2  max-w-2xl pt-20 md:pt-10 flex flex-col items-left justify-left">
+          <h1 className="text-[2rem] md:text-[2.6rem] font-bold text-left bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 to-gray-500 dark:from-neutral-50 dark:to-gray-400 bg-opacity-50 tracking-tight">
+            Hello there! I&apos;m Anna,
+            <span className="block leading-[1.25] text-[1.4rem] md:text-[1.7rem] font-medium ">
               {" "}
-              One Experience at a Time
+              a frontend-focused developer working with
+              <span className="text-black dark:text-white"> React</span> and
+              <span className="text-black dark:text-white"> Next.js</span> to
+              build
+              <span className="text-black dark:text-white">
+                {" "}
+                clean, maintainable product interfaces
+              </span>
+              . I care deeply about{" "}
+              <span className="text-black dark:text-white">
+                UI quality
+              </span>,{" "}
+              <span className="text-black dark:text-white">code clarity</span>,
+              and{" "}
+              <span className="text-black dark:text-white">
+                user experience
+              </span>
+              .
             </span>
           </h1>
 
-          <p className="mt-4 font-normal text-sm md:text-md text-gray-400 text-left">
-            Hello there! I&apos;m Anna, a{" "}
-            <span className="text-white">full-stack developer</span> and
-            self-proclaimed
-            <span className="text-white"> code samurai</span>, on a quest to
-            craft sleek and functional websites with a special love for{" "}
-            <span className="text-white">front-end development</span> and{" "}
-            <span className="text-white">web UI</span>. My passion for clean,
-            <span className="text-white"> pixel-perfect designs</span> is
-            matched only by my obsession with finding the perfect{" "}
-            <span className="text-white">GIF</span> to capture every moment of
-            excitement.
+          <p className="mt-4 font-normal text-sm md:text-md text-neutral-800 dark:text-gray-400 text-left">
+            I approach frontend work like a samurai&apos;s craft: disciplined,
+            intentional, and constantly refined.
           </p>
-          <p className="mt-4 font-normal tex-sm md:text-md text-gray-400 text-left">
+          <p className="mt-4 font-normal text-sm md:text-lg text-neutral-800 dark:text-gray-400 text-left">
             Some people call me Annasama.
           </p>
           <div className="flex align-center gap-4">

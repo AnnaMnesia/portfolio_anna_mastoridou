@@ -6,25 +6,24 @@ const Footer = () => {
   return (
     <footer id="contact" className="pt-10 pb-24">
       <div className="relative">
-        <div className="absolute top-0 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15"></div>
+        <div className="absolute top-0 w-full h-[1.5px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
         <div className="mx-auto max-w-4xl py-10">
-          <div className="flex flex-col max-w-4xl md:items-end tems-start ">
+          <div className="flex flex-col max-w-4xl items-start">
             <GifCard index={gifIndex} />
-            <h1 className="text-md md:text-lg font-light text-gray-400">
-              STEP FORWARD AND CONTACT ME{" "}
-              <span className="text-gray-400 ">today</span>
+            <h1 className="mt-4 text-md font-light text-gray-400">
+              REACH OUT AND GET IN TOUCH{" "}
             </h1>
             <a
               href="mailto:mastoridouanna@icloud.com"
-              className="hover:underline max-w-2xl md:text-end text-start text-xl md:text-3xl hover:text-gray-400"
+              className="hover:underline max-w-2xl text-start text-xl md:text-3xl hover:text-violet font-semibold "
             >
-              Let’s craft something with precision and purpose.
-              mastoridouanna@icloud.com
+              Contact me and let&apos;s craft something with purpose.
+              <span className="underline">mastoridouanna@icloud.com</span>
             </a>
           </div>
-          <div className="flex mt-14 md:flex-row flex-col justify-between md:items-end tems-start gap-4 pb-1">
+          <div className="flex mt-7 md:flex-row flex-col justify-between items-center gap-4 pb-1">
             <p className="text-base md:font-normal font-light">
-              OR find me forging my craft, one line of code at a time.
+              OR FIND ME FORGING MY CRAFT ON
             </p>
 
             <div className="flex items-center md:gap-3 gap-6">
@@ -45,7 +44,7 @@ const Footer = () => {
             © Anna Mastoridou
           </p>
         </div>
-        <div className="absolute bottom-0 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15"></div>
+        <div className="absolute bottom-0 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
       </div>
     </footer>
   );

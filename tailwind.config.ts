@@ -34,7 +34,7 @@ const config = {
           300: "rgba(255, 255, 255, 0.125)",
         },
         white: {
-          DEFAULT: "#EBECEE",
+          DEFAULT: "#ffffff",
           100: "#707581",
           200: "##A6A6A6",
         },
@@ -42,6 +42,7 @@ const config = {
           "100": "#E1E1E1",
         },
         purple: "#888888",
+        violet:"#7855D7",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

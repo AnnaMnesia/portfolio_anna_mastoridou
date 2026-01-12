@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section id="experience" className="pt-10 pb-10">
       <div className="relative pb-10">
-        <div className="absolute -top-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15"></div>
+        <div className="absolute -top-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
         <div className="relative mx-auto max-w-4xl">
           <h3 className="text-sm md:text-lg font-light tracking-widest text-gray-400 mb-2">
             WHERE I HAVE PUT IN VALUE
@@ -14,7 +14,7 @@ const Experience = () => {
             My experience so far
           </h2>
         </div>
-        <div className="absolute top-24 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15 "></div>
+        <div className="absolute top-24 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
 
         <div className="grid gap-4 py-5  mx-auto max-w-4xl ">
           {experiences.map((exp, index) => (
@@ -39,7 +39,7 @@ const Experience = () => {
             </div>
           ))}
         </div>
-        <div className="absolute bottom-0 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15"></div>
+        <div className="absolute bottom-0 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
       </div>
     </section>
   );

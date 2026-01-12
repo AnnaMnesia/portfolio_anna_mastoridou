@@ -8,10 +8,10 @@ export function DevQuote() {
   return (
     <section className="relative pt-10 pb-20">
       <div className="relative">
-        <div className="absolute -top-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15"></div>
+        <div className="absolute -top-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
         <div className="flex flex-col items-center mt-5">
           <div className="py-5">
-            <p className="font-semibold text-xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-gray-400 bg-opacity-50 tracking-tight">
+            <p className="font-semibold text-xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-400  to-neutral-800 dark:from-neutral-50 dark:to-gray-400 bg-opacity-50 tracking-tight">
               First, solve the problem. Then, write the code.
             </p>
             <div
@@ -45,7 +45,7 @@ export function DevQuote() {
             </div>
           </div>
         </div>
-        <div className="absolute -bottom-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:30px_24px] opacity-15 "></div>
+        <div className="absolute -bottom-4 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
       </div>
     </section>
   );

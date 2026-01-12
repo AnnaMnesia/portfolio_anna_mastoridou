@@ -42,7 +42,7 @@ export const AnimatedTestimonials: React.FC<AnimatedTestimonialsProps> = ({
             whileTap="whileTap"
             className="rounded-xl -mr-4 p-2 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden"
           >
-            <div className="rounded-lg bg-[#1B1B1D] h-64 w-80 p-3">
+            <div className="rounded-lg bg-[#EBECEE] dark:bg-[#1B1B1D] h-64 w-80 p-3">
               <div className="flex flex-col">
                 <p className="text-xs font-light ">{testimonial.quote}</p>
                 <div className="flex items-center pt-3 gap-3">

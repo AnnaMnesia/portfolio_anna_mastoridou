@@ -10,6 +10,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { Testimonials } from "@/components/Testimonials";
 import { Stack } from "@/components/Stack";
 import { DevQuote } from "@/components/DevQuote";
+import ThemeToggle from "@/components/ui/ThemeToggle";
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -33,11 +34,11 @@ const Home = () => {
     <main className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full relative">
         {/* Vertical Hyphen Lines (Left & Right) */}
-        <div className="absolute top-0 left-10 w-[2px] h-full bg-[linear-gradient(to_bottom,_gray_60%,_transparent_50%)] bg-[length:1px_24px] opacity-15 hidden xl:block"></div>
-        <div className="absolute top-0 left-40 w-[2px] h-full bg-[linear-gradient(to_bottom,_gray_60%,_transparent_50%)] bg-[length:1px_24px] opacity-15 hidden xl:block"></div>
+        <div className="absolute top-0 left-10 w-[2px] h-full bg-[linear-gradient(to_bottom,_gray_60%,_transparent_50%)] bg-[length:1px_18px] opacity-15 hidden lg:block"></div>
+        <div className="absolute top-0 left-40 w-[2px] h-full bg-[linear-gradient(to_bottom,_gray_60%,_transparent_50%)] bg-[length:1px_18px] opacity-15 hidden lg:block"></div>
 
-        <div className="absolute top-0 right-10 w-[2px] h-full bg-[linear-gradient(to_bottom,_gray_60%,_transparent_50%)] bg-[length:1px_24px] opacity-15 hidden xl:block"></div>
-        <div className="absolute top-0 right-40 w-[2px] h-full bg-[linear-gradient(to_bottom,_gray_60%,_transparent_50%)] bg-[length:1px_24px] opacity-15 hidden xl:block"></div>
+        <div className="absolute top-0 right-10 w-[1.5px] h-full bg-[linear-gradient(to_bottom,_gray_60%,_transparent_50%)] bg-[length:1px_18px] opacity-15 hidden lg:block"></div>
+        <div className="absolute top-0 right-40 w-[1.5px] h-full bg-[linear-gradient(to_bottom,_gray_60%,_transparent_50%)] bg-[length:1px_18px] opacity-15 hidden lg:block"></div> 
 
         {/* Blur effect on top */}
         <div
@@ -53,6 +54,7 @@ const Home = () => {
         ></div>
 
         <FloatingNav navItems={navItems} />
+        <ThemeToggle />
         <Hero />
         <Projects />
         <Experience />
