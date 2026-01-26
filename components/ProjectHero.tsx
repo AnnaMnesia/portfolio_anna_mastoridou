@@ -30,7 +30,7 @@ const ProjectHero = ({ project }: ProjectHeroProps) => {
     <div className="pb-10 md:pt-36 pt-36">
       <div className="relative">
         <div className="mx-auto max-w-4xl flex relative">
-          <div className="p-4 z-2 w-full mx-auto max-w-4xl flex flex-col  justify-center border">
+          <div className="p-4 z-2 w-full mx-auto max-w-4xl flex flex-col  justify-center">
             <p className="text-sm text-left text-gray-700">
               {project.name}
               <span className="text-gray-300"> • </span>
