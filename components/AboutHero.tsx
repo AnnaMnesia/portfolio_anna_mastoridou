@@ -2,7 +2,7 @@ const AboutHero = () => {
   return (
     <div className="pb-10 md:pt-36 pt-36">
       <div className="relative">
-        <div className="h-[44rem] md:h-[32rem] mx-auto max-w-4xl flex relative">
+        <div className="h-[32rem] mx-auto max-w-4xl flex relative">
           <div className="p-4 z-2 mx-auto max-w-3xl flex flex-col  justify-center">
             <p className=" text-5xl md:text-7xl text-left font-bold">
               Anna <br /> Mastoridou
@@ -37,7 +37,7 @@ const AboutHero = () => {
             </p>
           </div>
         </div>
-        <div className="absolute -bottom-4 w-full h-[1.5px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
+        <div className="absolute -bottom-6 w-full h-[1.5px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
       </div>
     </div>
   );

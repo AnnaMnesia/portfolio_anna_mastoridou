@@ -1,14 +1,15 @@
-// pages/about.tsx
+// pages/project bsy id
 "use client";
 import { useState, useEffect } from "react";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Footer from "@/components/Footer";
 import { navItems } from "@/data";
-import AboutHero from "@/components/AboutHero";
+import ProjectHero from "@/components/ProjectHero";
 import AboutBio from "@/components/AboutBio";
 import ThemeToggle from "@/components/ui/ThemeToggle";
+import { projects } from "@/data";
 
-const HomeAbout = () => {
+const ProjectPage = ({ params }: { params: { id: string } }) => {
   const [scrolled, setScrolled] = useState(false);
   const [atBottom, setAtBottom] = useState(false);
 
@@ -25,6 +26,9 @@ const HomeAbout = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const project = projects.find((p) => p.id === Number(params.id));
+  if (!project) return <div>Project not found</div>;
 
   return (
     <main className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
@@ -47,12 +51,12 @@ const HomeAbout = () => {
 
         <FloatingNav navItems={navItems} />
         <ThemeToggle />
-        <AboutHero />
-        <AboutBio/>
+        <ProjectHero project={project}/>
+        <AboutBio />
         <Footer />
       </div>
     </main>
   );
 };
 
-export default HomeAbout;
+export default ProjectPage;

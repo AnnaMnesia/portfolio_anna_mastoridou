@@ -16,13 +16,16 @@ const Footer = () => {
             </h1>
             <a
               href="mailto:mastoridouanna@icloud.com"
-              className="hover:underline max-w-2xl text-start text-xl md:text-3xl hover:text-violet font-semibold "
+              className="hover:underline max-w-2xl text-start text-xl md:text-3xl hover:text-violet font-semibold"
             >
               Contact me and let&apos;s craft something with purpose.
-              <span className="underline">mastoridouanna@icloud.com</span>
+              <span className="block sm:inline underline">
+                {" "}
+                mastoridouanna@icloud.com
+              </span>
             </a>
           </div>
-          <div className="flex mt-7 md:flex-row flex-col justify-between items-center gap-4 pb-1">
+          <div className="flex mt-7 md:flex-row flex-col justify-between  gap-4 pb-1">
             <p className="text-base md:font-normal font-light">
               OR FIND ME FORGING MY CRAFT ON
             </p>

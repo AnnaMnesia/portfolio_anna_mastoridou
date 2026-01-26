@@ -17,56 +17,49 @@ export const gifs = [
 
 export const images = ["/museum.jpg", "/closeup.png", "/gym.png", "/anna.jpeg"];
 
-export const projects = [
-  {
-    id: 1,
-    title: "Training Load Tracker",
-    name: "TrackerX",
-    src: "/p7.png",
-    link: "https://training-load-tracker.vercel.app",
-    year: "2025",
-  },
-  {
-    id: 2,
-    title: "Storage Management Platform",
-    name: "Metafortify",
-    src: "/p3.png",
-    link: "https://metafortify.vercel.app/sign-in",
-    year: "2025",
-  },
-  {
-    id: 3,
-    title: "Animated Apple Iphone 3D Website",
-    name: "Apple",
-    src: "/p4.svg",
-    link: "https://iphone-apple-uiux.vercel.app/",
-    year: "2024",
-  },
-  {
-    id: 4,
-    title: "Modern Nextjs Portfolio",
-    name: "Anna Mastoridou",
-    src: "/p5.svg",
-    link: "https://portfolio-anna-mastoridou.vercel.app",
-    year: "2024",
-  },
-  {
-    id: 5,
-    title: "A Digital Gallery Celebrating Art & Beyond",
-    name: "100 Days of Art",
-    src: "/p2.svg",
-    link: "https://100-days-of-art.vercel.app",
-    year: "2023",
-  },
-  {
-    id: 6,
-    title: "React Notes App",
-    name: "Notes",
-    src: "/p6.png",
-    link: "https://react-notes-app-weld.vercel.app",
-    year: "2022",
-  },
-];
+// export const projects = [
+//   {
+//     id: 1,
+//     title: "AI-Powered Travel Agency Platform",
+//     name: "NomadOS",
+//     src: "/p1.png",
+//     link: "https://training-load-tracker.vercel.app",
+//     year: "2026",
+//   },
+//   {
+//     id: 2,
+//     title: "Training Load Tracker",
+//     name: "TrackerX",
+//     src: "/p7.png",
+//     link: "https://training-load-tracker.vercel.app",
+//     year: "2025",
+//   },
+//   {
+//     id: 3,
+//     title: "Storage Management Platform",
+//     name: "Metafortify",
+//     src: "/p3.png",
+//     link: "https://metafortify.vercel.app/sign-in",
+//     year: "2025",
+//   },
+
+//   {
+//     id: 4,
+//     title: "A Digital Gallery Celebrating Art & Beyond",
+//     name: "100 Days of Art",
+//     src: "/p2.svg",
+//     link: "https://100-days-of-art.vercel.app",
+//     year: "2023",
+//   },
+//   {
+//     id: 5,
+//     title: "React Notes App",
+//     name: "Notes",
+//     src: "/p6.png",
+//     link: "https://react-notes-app-weld.vercel.app",
+//     year: "2022",
+//   },
+// ];
 
 export const testimonials = [
   {
@@ -117,12 +110,12 @@ export const experiences = [
     company: "DCI Digital Career Institute",
     logo: "https://digitalcareerinstitute.org/wp-content/uploads/2022/04/DCI_COLORS_June24_logo_wordmark_blue.svg",
   },
-  {
-    period: "Nov 2019 - Dec 2020",
-    role: "Online Marketing Assistant / Social Media",
-    company: "Bengar GmbH",
-    logo: "https://cdn02.plentymarkets.com/zlrq6w0vcvw9/frontend/logo/bengar_logo.png",
-  },
+  // {
+  //   period: "Nov 2019 - Dec 2020",
+  //   role: "Online Marketing Assistant / Social Media",
+  //   company: "Bengar GmbH",
+  //   logo: "https://cdn02.plentymarkets.com/zlrq6w0vcvw9/frontend/logo/bengar_logo.png",
+  // },
 ];
 
 export const stack = [
@@ -247,3 +240,160 @@ export const socialMedia = [
 //     des: "Geralt's adventures never get old, but I’m definitely counting down the days until The Blood of Dawnwalker drops. Let's hope it's as epic as a Witcher quest!",
 //   },
 // ];
+
+export const projects = [
+  {
+    id: 1,
+    slug: "nomados",
+    title: "AI-Powered Travel Agency Platform",
+    name: "NomadOS",
+    src: "/p1.png",
+    year: "2026",
+    cover: "/projects/nomados/cover.png",
+
+    overview: {
+      role: "Frontend Developer",
+      summary:
+        "A modern travel agency web platform that combines a public booking experience with a powerful admin dashboard. Users can explore trips and generate AI-powered itineraries, while administrators manage trips, users, payments, and analytics — all from a single system.",
+      summary1:
+        "This project was built to simulate a real, shippable product,focusing on scalability, user experience, and real-world integrations rather than isolated features or demos.",
+    },
+
+    sections: [
+      {
+        heading: "Challenge & Purpose",
+        content:
+          "The goal was to build a scalable platform that could personalize travel experiences while handling complex data flows and third-party APIs.",
+        image: "/projects/nomados/challenge.png",
+      },
+      {
+        heading: "Design & Development Process",
+        content:
+          "We focused on modular architecture, performance optimization, and intuitive UX patterns to ensure a smooth experience across devices.",
+        image: "/projects/nomados/process.png",
+      },
+      {
+        heading: "Outcome",
+        content:
+          "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+      },
+    ],
+
+    demoUrl: "https://travel-agency-dashboard-azure.vercel.app/sign-in",
+  },
+
+  {
+    id: 2,
+    slug: "trackerx",
+    title: "Training Load Tracker",
+    name: "TrackerX",
+    src: "/p7.png",
+    year: "2025",
+    cover: "/projects/trackerx/cover.png",
+
+    overview: {
+      role: "Frontend Developer",
+      summary:
+        "TrackerX helps athletes and coaches track, analyze, and optimize training load to prevent injuries and improve performance.",
+    },
+
+    sections: [
+      {
+        heading: "Problem",
+        content:
+          "Athletes often lack clear insights into how training intensity impacts performance and recovery.",
+      },
+      {
+        heading: "Solution",
+        content:
+          "TrackerX provides real-time visual analytics and intuitive dashboards to make training data actionable.",
+        image: "/projects/trackerx/dashboard.png",
+      },
+    ],
+
+    demoUrl: "https://training-load-tracker.vercel.app",
+  },
+
+  {
+    id: 3,
+    slug: "metafortify",
+    title: "Storage Management Platform",
+    name: "Metafortify",
+    src: "/p3.png",
+    year: "2025",
+    cover: "/projects/metafortify/cover.png",
+
+    overview: {
+      role: "Frontend Developer",
+      summary:
+        "Metafortify is a storage management platform designed to help teams securely organize and monitor digital assets.",
+    },
+
+    sections: [
+      {
+        heading: "Challenge",
+        content:
+          "Managing large-scale storage systems required clarity, security, and scalability.",
+      },
+      {
+        heading: "Result",
+        content:
+          "The platform delivered a clean, secure interface with strong performance and usability.",
+      },
+    ],
+
+    demoUrl: "https://metafortify.vercel.app/sign-in",
+  },
+
+  {
+    id: 4,
+    slug: "100-days-of-art",
+    title: "A Digital Gallery Celebrating Art & Beyond",
+    name: "100 Days of Art",
+    src: "/p2.svg",
+    year: "2023",
+    cover: "/projects/100-days/cover.svg",
+
+    overview: {
+      role: "Frontend Developer & Designer",
+      summary:
+        "A digital gallery exploring creativity through daily art challenges and curated collections.",
+    },
+
+    sections: [
+      {
+        heading: "Concept",
+        content:
+          "The project was built to celebrate consistency and creativity through daily artistic expression.",
+      },
+    ],
+
+    demoUrl: "https://100-days-of-art.vercel.app",
+  },
+
+  {
+    id: 5,
+    slug: "notes",
+    title: "React Notes App",
+    name: "Notes",
+    src: "/p6.png",
+    year: "2022",
+    cover: "/projects/notes/cover.png",
+
+    overview: {
+      role: "Frontend Developer",
+      summary:
+        "A lightweight React application for creating, organizing, and managing notes efficiently.",
+    },
+
+    sections: [
+      {
+        heading: "Features",
+        content:
+          "Fast note creation, local storage persistence, and a clean minimal UI.",
+      },
+    ],
+
+    demoUrl: "https://react-notes-app-weld.vercel.app",
+  },
+];

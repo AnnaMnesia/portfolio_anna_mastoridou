@@ -3,7 +3,7 @@ import { AboutFavList } from "./AboutFavList";
 
 const AboutBio = () => {
   return (
-    <div className="relative pt-10 pb-20">
+    <div className="relative pt-5 pb-20">
       <div className="relative">
         <div className="absolute top-12 w-full h-[2px] bg-[linear-gradient(to_right,_gray_60%,_transparent_50%)] bg-[length:18px_1px] opacity-15 lg:block"></div>
         <div className="relative mx-auto max-w-4xl">
@@ -23,8 +23,8 @@ const AboutBio = () => {
             </span>
           </p>
         </div>
-        <div className="relative mx-auto max-w-3xl">
-          <h2 className="mt-14 text-sm md:text-sm font-light text-gray-400 mb-2">
+        <div className="relative mx-auto max-w-3xl flex flex-col items-center md:items-start">
+          <h2 className="mt-14 text-sm md:text-sm font-light text-gray-400 mb-2 ">
             CURRENT PURSUITS, PASSIONS AND FAVORITES
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

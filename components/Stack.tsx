@@ -15,7 +15,7 @@ export function Stack() {
             <>
               <h2 className="text-sm md:text-lg font-light text-gray-400">
                 MY PATH TO SKILL AND HONOR <br />
-                <span className="text-4xl md:text-[4rem] font-semibold mt-1 leading-none text-[#ecedee]">
+                <span className="text-4xl md:text-[4rem] font-semibold mt-1 leading-none dark:text-[#ecedee] text-gray-800">
                   My Stack.
                 </span>
               </h2>

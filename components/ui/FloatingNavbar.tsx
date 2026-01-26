@@ -88,7 +88,7 @@ export const FloatingNav = ({
           "bg-white border-black/10 ",
           // DARK MODE
           "dark:bg-black/40 dark:border-white/20 dark:shadow-none",
-          className
+          className,
         )}
       >
         {navItems.map((navItem, idx) => {
@@ -102,11 +102,11 @@ export const FloatingNav = ({
                 "relative flex items-center space-x-1 transition-colors",
                 isActive
                   ? "text-neutral-900 dark:text-white"
-                  : "text-neutral-400 dark:text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300"
+                  : "text-neutral-400 dark:text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300",
               )}
             >
               <span className="block sm:hidden">{navItem.icon}</span>
-              <span className="text-sm md:text-[1rem] cursor-pointer font-semibold">
+              <span className="text-sm md:text-lg cursor-pointer font-medium">
                 {navItem.name}
               </span>
             </button>
