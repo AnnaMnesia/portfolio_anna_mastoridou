@@ -4,10 +4,11 @@ import { useState, useEffect } from "react";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Footer from "@/components/Footer";
 import { navItems } from "@/data";
-import ProjectHero from "@/components/ProjectHero";
-import AboutBio from "@/components/AboutBio";
+import ProjectHero from "@/components/projectById/ProjectHero";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 import { projects } from "@/data";
+import ProjectSectionGoals from "@/components/projectById/ProjectSectionGoals";
+import ProjectProblem from "@/components/projectById/ProjectProblem";
 
 const ProjectPage = ({ params }: { params: { id: string } }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -51,8 +52,9 @@ const ProjectPage = ({ params }: { params: { id: string } }) => {
 
         <FloatingNav navItems={navItems} />
         <ThemeToggle />
-        <ProjectHero project={project}/>
-        <AboutBio />
+        <ProjectHero project={project} />
+        <ProjectSectionGoals project={project} />
+        <ProjectProblem project={project} />
         <Footer />
       </div>
     </main>

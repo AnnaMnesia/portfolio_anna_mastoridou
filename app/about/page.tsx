@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Footer from "@/components/Footer";
 import { navItems } from "@/data";
-import AboutHero from "@/components/AboutHero";
-import AboutBio from "@/components/AboutBio";
+import AboutHero from "@/components/about/AboutHero";
+import AboutBio from "@/components/about/AboutBio";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 
 const HomeAbout = () => {
@@ -48,7 +48,7 @@ const HomeAbout = () => {
         <FloatingNav navItems={navItems} />
         <ThemeToggle />
         <AboutHero />
-        <AboutBio/>
+        <AboutBio />
         <Footer />
       </div>
     </main>

@@ -14,6 +14,8 @@ export const gifs = [
   "/katana.gif",
   "/ruruni.gif",
 ];
+export const problemGifs = ["/confused.gif", "/why.gif"];
+export const goalGifs = ["/proud.gif", "/proudofyou.gif"];
 
 export const images = ["/museum.jpg", "/closeup.png", "/gym.png", "/anna.jpeg"];
 
@@ -254,30 +256,65 @@ export const projects = [
     overview: {
       role: "Frontend Developer",
       summary:
-        "A modern travel agency web platform that combines a public booking experience with a powerful admin dashboard. Users can explore trips and generate AI-powered itineraries, while administrators manage trips, users, payments, and analytics — all from a single system.",
+        "The Travel Agency Platform is a modern web application that combines a public travel booking experience with an admin dashboard for managing trips, users, and analytics. Users can browse trips and generate AI-powered itineraries, while admins manage content and view data-driven insights from a single interface.",
       summary1:
-        "This project was built to simulate a real, shippable product,focusing on scalability, user experience, and real-world integrations rather than isolated features or demos.",
+        "This project was built to simulate a real-world product rather than a small demo, focusing on frontend architecture, dashboards, authentication, and third-party integrations.",
     },
 
-    sections: [
-      {
-        heading: "Challenge & Purpose",
-        content:
-          "The goal was to build a scalable platform that could personalize travel experiences while handling complex data flows and third-party APIs.",
-        image: "/projects/nomados/challenge.png",
-      },
-      {
-        heading: "Design & Development Process",
-        content:
-          "We focused on modular architecture, performance optimization, and intuitive UX patterns to ensure a smooth experience across devices.",
-        image: "/projects/nomados/process.png",
-      },
-      {
-        heading: "Outcome",
-        content:
-          "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-      },
-    ],
+    section1: {
+      heading: "WHY I BUILT THIS PROJECT",
+      content:
+        "I built this project to move beyond basic CRUD applications and practice building a larger, more realistic frontend application.",
+      subHeading: "My main goals were to:",
+      bullets: [
+        "Learn how larger React projects are structured",
+        "Work with real backend services instead of mock data",
+        "Practice authentication, protected routes, and dashboards",
+        "Explore how AI features can be integrated into a real product",
+      ],
+      subContent:
+        "I wanted a project that feels like something a real company could ship.",
+    },
+    section2: {
+      heading: "CONTEXT AND PROBLEM",
+      subHeading: "WHAT IS TRAVEL AGENCY PLATFORM",
+      content:
+        "The platform is a travel booking application that supports two main user types:",
+      bullets: [
+        "Public users, who browse trips and generate itineraries",
+        "Admins, who manage trips, users, and analytics",
+      ],
+      subContent:
+        "Both experiences live in the same application but serve very different needs.",
+      headingProblem:'THE PROBLEM',
+      contentProblem:'Many travel platforms:',
+      bulletsProblem: [
+        "Offer limited trip personalization",
+        "Separate user and admin tools into disconnected systems",
+        "Lack clear dashboards and insights",
+      ],
+    },
+
+    section3: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section4: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section5: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section6: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
 
     demoUrl: "https://travel-agency-dashboard-azure.vercel.app/sign-in",
   },
@@ -297,19 +334,38 @@ export const projects = [
         "TrackerX helps athletes and coaches track, analyze, and optimize training load to prevent injuries and improve performance.",
     },
 
-    sections: [
-      {
-        heading: "Problem",
-        content:
-          "Athletes often lack clear insights into how training intensity impacts performance and recovery.",
-      },
-      {
-        heading: "Solution",
-        content:
-          "TrackerX provides real-time visual analytics and intuitive dashboards to make training data actionable.",
-        image: "/projects/trackerx/dashboard.png",
-      },
-    ],
+    section1: {
+      heading: "WHY I BUILT THIS PROJECT",
+      content:
+        "I built this project to move beyond basic CRUD applications and practice building a larger, more realistic frontend application.",
+      image: "/projects/nomados/challenge.png",
+    },
+    section2: {
+      heading: "Design & Development Process",
+      content:
+        "We focused on modular architecture, performance optimization, and intuitive UX patterns to ensure a smooth experience across devices.",
+      image: "/projects/nomados/process.png",
+    },
+    section3: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section4: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section5: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section6: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
 
     demoUrl: "https://training-load-tracker.vercel.app",
   },
@@ -360,13 +416,38 @@ export const projects = [
         "A digital gallery exploring creativity through daily art challenges and curated collections.",
     },
 
-    sections: [
-      {
-        heading: "Concept",
-        content:
-          "The project was built to celebrate consistency and creativity through daily artistic expression.",
-      },
-    ],
+    section1: {
+      heading: "WHY I BUILT THIS PROJECT",
+      content:
+        "I built this project to move beyond basic CRUD applications and practice building a larger, more realistic frontend application.",
+      image: "/projects/nomados/challenge.png",
+    },
+    section2: {
+      heading: "Design & Development Process",
+      content:
+        "We focused on modular architecture, performance optimization, and intuitive UX patterns to ensure a smooth experience across devices.",
+      image: "/projects/nomados/process.png",
+    },
+    section3: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section4: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section5: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section6: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
 
     demoUrl: "https://100-days-of-art.vercel.app",
   },
@@ -386,13 +467,38 @@ export const projects = [
         "A lightweight React application for creating, organizing, and managing notes efficiently.",
     },
 
-    sections: [
-      {
-        heading: "Features",
-        content:
-          "Fast note creation, local storage persistence, and a clean minimal UI.",
-      },
-    ],
+    section1: {
+      heading: "WHY I BUILT THIS PROJECT",
+      content:
+        "I built this project to move beyond basic CRUD applications and practice building a larger, more realistic frontend application.",
+      image: "/projects/nomados/challenge.png",
+    },
+    section2: {
+      heading: "Design & Development Process",
+      content:
+        "We focused on modular architecture, performance optimization, and intuitive UX patterns to ensure a smooth experience across devices.",
+      image: "/projects/nomados/process.png",
+    },
+    section3: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section4: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section5: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
+    section6: {
+      heading: "Outcome",
+      content:
+        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+    },
 
     demoUrl: "https://react-notes-app-weld.vercel.app",
   },
