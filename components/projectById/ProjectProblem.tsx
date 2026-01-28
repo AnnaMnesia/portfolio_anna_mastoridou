@@ -8,7 +8,6 @@ type ProjectProblemProps = {
       content: string;
       bullets?: string[];
       subContent?: string;
-      headingProblem: string,
     };
   };
 };
