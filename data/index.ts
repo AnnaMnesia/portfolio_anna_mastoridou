@@ -14,10 +14,27 @@ export const gifs = [
   "/katana.gif",
   "/ruruni.gif",
 ];
-export const problemGifs = ["/confused.gif", "/why.gif"];
+
+export const problemGifs = [
+  "/ughFrustrated.gif",
+  "/sadGiveUp.gif",
+  "/angrySimon.gif",
+  "/batmanFacepalm.gif",
+  "/problem.gif",
+  "/intensifies.gif"
+];
+
 export const goalGifs = ["/proud.gif", "/proudofyou.gif"];
 
 export const images = ["/museum.jpg", "/closeup.png", "/gym.png", "/anna.jpeg"];
+
+export const carouselImages = [
+  "/dashboard.svg",
+  "/allUsers.svg",
+  "/allTrips.svg",
+  "/createTrips.svg",
+  "/stripe.svg",
+];
 
 // export const projects = [
 //   {
@@ -252,7 +269,13 @@ export const projects = [
     src: "/p1.png",
     year: "2026",
     cover: "/projects/nomados/cover.png",
-
+    carouselImages: [
+      "/dashboard.svg",
+      "/allUsers.svg",
+      "/allTrips.svg",
+      "/createTrips.svg",
+      "/stripe.svg",
+    ],
     overview: {
       role: "Frontend Developer",
       summary:
@@ -286,36 +309,45 @@ export const projects = [
       ],
       subContent:
         "Both experiences live in the same application but serve very different needs.",
-      headingProblem:'THE PROBLEM',
-      contentProblem:'Many travel platforms:',
+      headingProblem: "THE PROBLEM",
+      contentProblem: "Many travel platforms:",
       bulletsProblem: [
         "Offer limited trip personalization",
         "Separate user and admin tools into disconnected systems",
         "Lack clear dashboards and insights",
       ],
+      subContentProblem:
+        "From a learning perspective, many example projects also avoid real complexity by skipping authentication, analytics, and third-party services. I wanted to understand how these challenges can be handled in a single application.",
     },
 
     section3: {
-      heading: "Outcome",
+      heading: "THE TECHNICAL STACK",
+      subHeading: "A LITTLE ARCHITECTURE",
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This stack allowed me to focus on frontend logic while still working with real backend services.",
+      imageStack: "/technicalStack.svg",
+      imageDesc: "technical stack",
     },
     section4: {
-      heading: "Outcome",
+      heading: "IMPACT AND LEARNING",
+      subHeadingImpact: "IMPACT",
+      impactGif:'/impact.gif',
+      bulletsImpact: [
+        "Built a complete application with both public and admin experiences",
+        "Implemented authentication, dashboards, and analytics in a single project",
+        "Created a scalable project structure that supports future features",
+        "Gained experience integrating multiple third-party services",
+      ],
+      subHeadingLearn: "WHAT DID I LEARN FROM THIS?",
+      bulletsLearn: [
+        "How to structure and manage a larger React codebase",
+        "How to work with protected routes and role-based access",
+        "How to build data-driven dashboards",
+        "How real-world integrations affect frontend complexity",
+      ],
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This project helped me better understand how frontend decisions impact the overall product experience.",
     },
-    section5: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-    section6: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-
     demoUrl: "https://travel-agency-dashboard-azure.vercel.app/sign-in",
   },
 

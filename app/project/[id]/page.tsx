@@ -9,6 +9,9 @@ import ThemeToggle from "@/components/ui/ThemeToggle";
 import { projects } from "@/data";
 import ProjectSectionGoals from "@/components/projectById/ProjectSectionGoals";
 import ProjectProblem from "@/components/projectById/ProjectProblem";
+import { Carousel } from "@/components/ui/Carousel";
+import ProjectStack from "@/components/projectById/ProjectStack";
+import ProjectImpact from "@/components/projectById/ProjectImpact";
 
 const ProjectPage = ({ params }: { params: { id: string } }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -54,7 +57,10 @@ const ProjectPage = ({ params }: { params: { id: string } }) => {
         <ThemeToggle />
         <ProjectHero project={project} />
         <ProjectSectionGoals project={project as any} />
+        <Carousel project={project as any} />
         <ProjectProblem project={project as any} />
+        <ProjectStack project={project as any} />
+        <ProjectImpact project={project as any} />
         <Footer />
       </div>
     </main>
