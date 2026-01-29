@@ -547,10 +547,12 @@ export const projects = [
     slug: "100-days-of-art",
     title: "A Digital Gallery Celebrating Art & Beyond",
     name: "100 Days of Art",
-    src: "/p2.svg",
+    srclight: "/daysofart.gif",
+    srcdark: "/daysofart.gif",
+    coverlight: "/coverlightp3.png",
+    coverdark: "/coverdarkp3.png",
     year: "2023",
-    cover: "/projects/100-days/cover.svg",
-
+    carouselImages: ["/trackerdesc.svg", "/trackermob.svg"],
     overview: {
       role: "Frontend Developer & Designer",
       summary:
@@ -597,9 +599,13 @@ export const projects = [
     slug: "notes",
     title: "React Notes App",
     name: "Notes",
-    src: "/p6.png",
+    srclight: "/p6.png",
+    srcdark: "/p6.png",
+    coverlight: "/coverlightp3.png",
+    coverdark: "/coverdarkp3.png",
     year: "2022",
-    cover: "/projects/notes/cover.png",
+    cover: "/projects/trackerx/cover.png",
+    carouselImages: ["/trackerdesc.svg", "/trackermob.svg"],
 
     overview: {
       role: "Frontend Developer",

@@ -18,6 +18,8 @@ export const Card = React.memo(
     hovered: number | null;
     setHovered: React.Dispatch<React.SetStateAction<number | null>>;
   }) => {
+    const isGif = (src: string) => src.toLowerCase().endsWith(".gif");
+
     const router = useRouter();
 
     return (
@@ -40,6 +42,7 @@ export const Card = React.memo(
             src={project.srclight}
             alt={project.title}
             fill
+            unoptimized={isGif(project.srclight)}
             className="rounded-lg absolute object-cover p-1.5 inset-0 block dark:hidden"
           />
 
@@ -48,6 +51,7 @@ export const Card = React.memo(
             src={project.srcdark}
             alt={project.title}
             fill
+            unoptimized={isGif(project.srcdark)}
             className="rounded-lg absolute object-cover p-1.5 inset-0 hidden dark:block"
           />
         </div>
