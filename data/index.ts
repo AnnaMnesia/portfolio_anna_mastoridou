@@ -14,10 +14,27 @@ export const gifs = [
   "/katana.gif",
   "/ruruni.gif",
 ];
-export const problemGifs = ["/confused.gif", "/why.gif"];
+
+export const problemGifs = [
+  "/ughFrustrated.gif",
+  "/sadGiveUp.gif",
+  "/angrySimon.gif",
+  "/batmanFacepalm.gif",
+  "/problem.gif",
+  "/intensifies.gif",
+];
+
 export const goalGifs = ["/proud.gif", "/proudofyou.gif"];
 
 export const images = ["/museum.jpg", "/closeup.png", "/gym.png", "/anna.jpeg"];
+
+export const carouselImages = [
+  "/dashboard.svg",
+  "/allUsers.svg",
+  "/allTrips.svg",
+  "/createTrips.svg",
+  "/stripe.svg",
+];
 
 // export const projects = [
 //   {
@@ -247,12 +264,21 @@ export const projects = [
   {
     id: 1,
     slug: "nomados",
-    title: "AI-Powered Travel Agency Platform",
+    title:
+      "A smart travel agency platform with AI-powered itineraries and admin analytics",
     name: "NomadOS",
-    src: "/p1.png",
+    srclight: "/lightp1.png",
+    srcdark: "/darkp1.png",
+    coverlight: "/lightp1.png",
+    coverdark: "/darkp1.png",
     year: "2026",
-    cover: "/projects/nomados/cover.png",
-
+    carouselImages: [
+      "/dashboard.svg",
+      "/allUsers.svg",
+      "/allTrips.svg",
+      "/createTrips.svg",
+      "/stripe.svg",
+    ],
     overview: {
       role: "Frontend Developer",
       summary:
@@ -286,119 +312,234 @@ export const projects = [
       ],
       subContent:
         "Both experiences live in the same application but serve very different needs.",
-      headingProblem:'THE PROBLEM',
-      contentProblem:'Many travel platforms:',
+      headingProblem: "THE PROBLEM",
+      contentProblem: "Many travel platforms:",
       bulletsProblem: [
         "Offer limited trip personalization",
         "Separate user and admin tools into disconnected systems",
         "Lack clear dashboards and insights",
       ],
+      subContentProblem:
+        "From a learning perspective, many example projects also avoid real complexity by skipping authentication, analytics, and third-party services. I wanted to understand how these challenges can be handled in a single application.",
     },
 
     section3: {
-      heading: "Outcome",
+      heading: "THE TECHNICAL STACK",
+      subHeading: "A LITTLE ARCHITECTURE",
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This stack allowed me to focus on frontend logic while still working with real backend services.",
+      imageStack: "/technicalStack.svg",
+      imageDesc: "technical stack",
     },
     section4: {
-      heading: "Outcome",
+      heading: "IMPACT AND LEARNING",
+      subHeadingImpact: "IMPACT",
+      impactGif: "/impact.gif",
+      bulletsImpact: [
+        "Built a complete application with both public and admin experiences",
+        "Implemented authentication, dashboards, and analytics in a single project",
+        "Created a scalable project structure that supports future features",
+        "Gained experience integrating multiple third-party services",
+      ],
+      subHeadingLearn: "WHAT DID I LEARN FROM THIS?",
+      bulletsLearn: [
+        "How to structure and manage a larger React codebase",
+        "How to work with protected routes and role-based access",
+        "How to build data-driven dashboards",
+        "How real-world integrations affect frontend complexity",
+      ],
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This project helped me better understand how frontend decisions impact the overall product experience.",
     },
-    section5: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-    section6: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-
     demoUrl: "https://travel-agency-dashboard-azure.vercel.app/sign-in",
   },
-
   {
     id: 2,
-    slug: "trackerx",
-    title: "Training Load Tracker",
-    name: "TrackerX",
-    src: "/p7.png",
+    slug: "metafortify",
+    title: "Storage management and file-sharing platform",
+    name: "Metafortify",
+    srclight: "/lightp2.png",
+    srcdark: "/darkp2.png",
+    coverlight: "/coverlightp2.png",
+    coverdark: "/coverdarkp2.png",
     year: "2025",
-    cover: "/projects/trackerx/cover.png",
-
+    carouselImages: [
+      "/loginMeta.svg",
+      "/dashMeta.svg",
+      "/docMeta.svg",
+      "/imgsMeta.svg",
+      "/mediaMeta.svg",
+      "/othersMeta.svg",
+      "/shareMeta.svg",
+      "/optMeta.svg",
+      "/uploadMeta.svg",
+    ],
     overview: {
       role: "Frontend Developer",
       summary:
-        "TrackerX helps athletes and coaches track, analyze, and optimize training load to prevent injuries and improve performance.",
+        "Metafortify is a modern storage management and file-sharing platform that allows users to securely upload, organize, and share files from a single, intuitive dashboard. It supports multiple file types, real-time file management actions, and link-based sharing, all backed by a real authentication and storage system.",
+      summary1:
+        "This project was built to simulate a real-world cloud storage product rather than a simple upload demo, with a strong focus on frontend architecture, authenticated workflows, file handling, and dashboard-driven UX.",
     },
 
     section1: {
       heading: "WHY I BUILT THIS PROJECT",
       content:
-        "I built this project to move beyond basic CRUD applications and practice building a larger, more realistic frontend application.",
-      image: "/projects/nomados/challenge.png",
+        "I built Metafortify to move beyond typical frontend projects and work on something that resembles a real SaaS-style application.",
+      subHeading: "My main goals were to:",
+      bullets: [
+        "Build a complete authentication-based product with protected routes",
+        "Work with real file storage instead of local or mock uploads",
+        "Design a dashboard that presents data clearly and efficiently",
+        "Practice managing complex UI states (uploads, previews, downloads, sharing)",
+        "Improve my understanding of frontend + backend integration in production-like setups",
+      ],
+      subContent:
+        "I wanted to create a project that feels like a simplified version of tools such as Google Drive or Dropbox — something a real user could rely on.",
     },
     section2: {
-      heading: "Design & Development Process",
+      heading: "CONTEXT AND PROBLEM",
+      subHeading: "WHAT IS MWTAFORTIFY",
       content:
-        "We focused on modular architecture, performance optimization, and intuitive UX patterns to ensure a smooth experience across devices.",
-      image: "/projects/nomados/process.png",
+        "Metafortify is a file storage and sharing platform designed around a single core user experience:",
+      bullets: [
+        "Authenticated users can upload, manage, and share their files",
+        "Files can be organized, searched, sorted, downloaded, or shared via links",
+        "Users interact with everything through a unified dashboard",
+      ],
+      headingProblem: "THE PROBLEM",
+      contentProblem: "Many file storage examples and tutorials:",
+      bulletsProblem: [
+        "Focus only on basic uploads without real file management",
+        "Skip authentication or use unrealistic mock data",
+        "Lack dashboards, search, or sharing features",
+        "Don’t reflect how real storage products behave at scale",
+      ],
+      subContentProblem:
+        "From a learning perspective, these shortcuts avoid important challenges like permissions, protected routes, and user-centric dashboards. I wanted to understand how these problems are handled in a real application.",
     },
     section3: {
-      heading: "Outcome",
+      heading: "THE TECHNICAL STACK",
+      subHeading: "A LITTLE ARCHITECTURE",
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This stack allowed me to focus heavily on frontend architecture and user experience while still working with real backend services and permissions.",
+      imageStack: "/tecStackmeta.svg",
+      imageDesc: "technical stack",
     },
     section4: {
-      heading: "Outcome",
+      heading: "IMPACT AND LEARNING",
+      subHeadingImpact: "IMPACT",
+      impactGif: "/impact.gif",
+      bulletsImpact: [
+        "Built a complete storage and file-sharing platform from scratch",
+        "Implemented real authentication and protected routes",
+        "Designed a functional dashboard with search, sorting, and file insights",
+        "Gained hands-on experience with real cloud storage workflows",
+        "Created a scalable structure suitable for future features",
+      ],
+      subHeadingLearn: "WHAT DID I LEARN FROM THIS?",
+      bulletsLearn: [
+        "How to architect a larger Next.js application",
+        "How authentication and permissions affect frontend logic",
+        "How to manage complex UI states for file uploads and actions",
+        "How dashboard design impacts usability and user confidence",
+        "How real backend services shape frontend decisions",
+      ],
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This project strengthened my understanding of how modern SaaS-style products are built end to end.",
     },
-    section5: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-    section6: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-
-    demoUrl: "https://training-load-tracker.vercel.app",
+    demoUrl: "https://metafortify.vercel.app/sign-in",
   },
-
   {
     id: 3,
-    slug: "metafortify",
-    title: "Storage Management Platform",
-    name: "Metafortify",
-    src: "/p3.png",
-    year: "2025",
-    cover: "/projects/metafortify/cover.png",
-
+    slug: "trackerx",
+    title:
+      "Training tracker application - helps users log and understand workouts",
+    name: "TrackerX",
+    srclight: "/lightp3.png",
+    srcdark: "/darkp3.png",
+    coverlight: "/coverlightp3.png",
+    coverdark: "/coverdarkp3.png",
+    year: "2024",
+    cover: "/projects/trackerx/cover.png",
+    carouselImages: ["/trackerdesc.svg", "/trackermob.svg"],
     overview: {
       role: "Frontend Developer",
       summary:
-        "Metafortify is a storage management platform designed to help teams securely organize and monitor digital assets.",
+        "Training Load Tracker is a lightweight training analysis application that helps users log workouts and understand both individual session intensity and overall weekly training load. The app provides immediate visual feedback through status badges and recovery guidance, helping users avoid under-training and over-training.",
+      summary1:
+        "Rather than focusing on volume alone, this project emphasizes explicit load calculation, predictable state flow, and clarity between session-level effort and accumulated weekly stress. It was built as a focused, logic-driven product rather than a generic CRUD tracker.",
     },
 
-    sections: [
-      {
-        heading: "Challenge",
-        content:
-          "Managing large-scale storage systems required clarity, security, and scalability.",
-      },
-      {
-        heading: "Result",
-        content:
-          "The platform delivered a clean, secure interface with strong performance and usability.",
-      },
-    ],
+    section1: {
+      heading: "WHY I BUILT THIS PROJECT",
+      content:
+        "I built Training Load Tracker to explore how clear domain logic and simple UI feedback can improve decision-making in fitness applications.",
+      subHeading: "My main goals were to:",
+      bullets: [
+        "Practice translating real-world concepts (training load) into clean frontend logic",
+        "Build predictable state flow without external state libraries",
+        "Design UI components that communicate meaning, not just data",
+        "Separate session-level metrics from aggregate weekly insights",
+        "Create a small but well-architected React application",
+      ],
+      subContent:
+        "I wanted the project to feel intentional — where every calculation, badge, and label exists for a reason.",
+    },
+    section2: {
+      heading: "CONTEXT AND PROBLEM",
+      subHeading: "WHAT IS TRAINING LOAD TRACKER",
+      content: "The application allows users to:",
+      bullets: [
+        "Log training sessions with date, type, duration, and intensity",
+        "View per-session load and status",
+        "See total weekly load with recovery guidance",
+        "Persist all data locally without a backend",
+        "The entire experience is centered around understanding effort over time, not just activity tracking",
+      ],
+      headingProblem: "THE PROBLEM",
+      contentProblem: "Many fitness trackers:",
+      bulletsProblem: [
+        "Focus on logging data without explaining its impact",
+        "Mix session and weekly metrics in confusing ways",
+        "Hide calculation logic behind charts or abstractions",
+        "Don’t clearly communicate recovery or risk",
+      ],
+      subContentProblem:
+        "From a learning perspective, many example projects also avoid explicit logic in favor of UI-heavy dashboards. I wanted to build something where the logic is transparent, readable, and easy to reason about.",
+    },
+    section3: {
+      heading: "THE TECHNICAL STACK",
+      subHeading: "A LITTLE ARCHITECTURE",
+      content:
+        "This stack allowed me to focus on application logic, predictable state updates, and component structure without introducing unnecessary complexity.",
+      imageStack: "/tecStacktracker.svg",
+      imageDesc: "technical stack",
+    },
+    section4: {
+      heading: "IMPACT AND LEARNING",
+      subHeadingImpact: "IMPACT",
+      impactGif: "/impact.gif",
+      bulletsImpact: [
+        "Built a complete training load tracking workflow",
+        "Implemented clear domain logic with no hidden coupling",
+        "Designed UI feedback that communicates training risk at a glance",
+        "Created a maintainable feature-based architecture",
+        "Delivered a fully functional app without a backend dependency",
+      ],
+      subHeadingLearn: "WHAT DID I LEARN FROM THIS?",
+      bulletsLearn: [
+        "How to model real-world concepts directly in frontend logic",
+        "How small calculation decisions affect UX clarity",
+        "How to design reusable components with multiple contexts",
+        "How predictable state flow simplifies debugging and iteration",
+        "How to balance simplicity with extensibility in app design",
+      ],
+      content:
+        "This project reinforced the idea that good frontend work is as much about logic and structure as it is about visuals.",
+    },
 
-    demoUrl: "https://metafortify.vercel.app/sign-in",
+    demoUrl: "https://training-load-tracker.vercel.app",
   },
 
   {
@@ -406,10 +547,12 @@ export const projects = [
     slug: "100-days-of-art",
     title: "A Digital Gallery Celebrating Art & Beyond",
     name: "100 Days of Art",
-    src: "/p2.svg",
+    srclight: "/daysofart.gif",
+    srcdark: "/daysofart.gif",
+    coverlight: "/coverlightp3.png",
+    coverdark: "/coverdarkp3.png",
     year: "2023",
-    cover: "/projects/100-days/cover.svg",
-
+    carouselImages: ["/trackerdesc.svg", "/trackermob.svg"],
     overview: {
       role: "Frontend Developer & Designer",
       summary:
@@ -451,15 +594,18 @@ export const projects = [
 
     demoUrl: "https://100-days-of-art.vercel.app",
   },
-
   {
     id: 5,
     slug: "notes",
     title: "React Notes App",
     name: "Notes",
-    src: "/p6.png",
+    srclight: "/p6.png",
+    srcdark: "/p6.png",
+    coverlight: "/coverlightp3.png",
+    coverdark: "/coverdarkp3.png",
     year: "2022",
-    cover: "/projects/notes/cover.png",
+    cover: "/projects/trackerx/cover.png",
+    carouselImages: ["/trackerdesc.svg", "/trackermob.svg"],
 
     overview: {
       role: "Frontend Developer",

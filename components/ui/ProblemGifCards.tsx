@@ -2,14 +2,14 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { goalGifs } from "@/data";
+import { problemGifs } from "@/data";
 
 export const ProblemGifCards = () => {
   const [gif, setGif] = useState<string | null>(null);
 
   useEffect(() => {
-    const randomIndex = Math.floor(Math.random() * goalGifs.length);
-    setGif(goalGifs[randomIndex]);
+    const randomIndex = Math.floor(Math.random() * problemGifs.length);
+    setGif(problemGifs[randomIndex]);
   }, []);
 
   if (!gif) return null;

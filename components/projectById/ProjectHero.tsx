@@ -6,8 +6,10 @@ type ProjectHeroProps = {
     title: string;
     name: string;
     year: string;
-    src: string;
-    cover: string;
+    srclight: string;
+    srcdark: string;
+    coverlight: string;
+    coverdark: string;
 
     overview: {
       role: string;
@@ -36,7 +38,7 @@ const ProjectHero = ({ project }: ProjectHeroProps) => {
             <div className="mt-6">
               <CardBigProject project={project} />
             </div>
-            <h2 className="mt-6 text-xs font-light text-gray-400 mb-2">
+            <h2 className="mt-6 text-sm font-light text-gray-400 mb-2">
               PROJECT SUMMARY
             </h2>
             <p className="font-normal text-sm md:text-md dark:text-gray-300">
