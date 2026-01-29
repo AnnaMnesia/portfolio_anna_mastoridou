@@ -6,8 +6,10 @@ type ProjectHeroProps = {
     title: string;
     name: string;
     year: string;
-    src: string;
-    cover: string;
+    srclight: string;
+    srcdark: string;
+    coverlight: string;
+    coverdark: string;
 
     overview: {
       role: string;

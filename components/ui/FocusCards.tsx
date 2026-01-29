@@ -28,18 +28,27 @@ export const Card = React.memo(
       >
         {/* Clickable Card */}
         <div
-         onClick={() => router.push(`/project/${project.id}`)}
+          onClick={() => router.push(`/project/${project.id}`)}
           // onClick={() => router.push(project.link)}
           className={cn(
             "group relative rounded-xl p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 shadow-lg overflow-hidden h-[360px] md:h-96 w-full transition-all duration-300 ease-out cursor-pointer", // Border styles added here
             hovered !== null && hovered !== index && "blur-sm scale-[0.98]",
           )}
         >
+          {/* Light image */}
           <Image
-            src={project.src}
+            src={project.srclight}
             alt={project.title}
             fill
-            className="rounded-lg absolute object-cover p-1.5 inset-0"
+            className="rounded-lg absolute object-cover p-1.5 inset-0 block dark:hidden"
+          />
+
+          {/* Dark image */}
+          <Image
+            src={project.srcdark}
+            alt={project.title}
+            fill
+            className="rounded-lg absolute object-cover p-1.5 inset-0 hidden dark:block"
           />
         </div>
 
@@ -72,7 +81,8 @@ type Card = {
   title: string;
   name: string;
   year: string;
-  src: string;
+  srclight: string;
+  srcdark: string;
 };
 // CARD SMALL ------------------------------
 // -----------------------------------------
@@ -109,10 +119,17 @@ export const CardBig = React.memo(
           )}
         >
           <Image
-            src={project.src}
+            src={project.srclight}
             alt={project.title}
             fill
-            className="rounded-lg absolute object-cover p-1.5 inset-0"
+            className="absolute inset-0 object-cover p-1.5 rounded-lg dark:hidden"
+          />
+
+          <Image
+            src={project.srcdark}
+            alt={project.title}
+            fill
+            className="absolute inset-0 object-cover p-1.5 rounded-lg hidden dark:block"
           />
         </div>
 
@@ -146,7 +163,8 @@ type CardBig = {
   title: string;
   name: string;
   year: string;
-  src: string;
+  srclight: string;
+  srcdark: string;
 };
 // CARD BIG --------------------------------
 // -----------------------------------------

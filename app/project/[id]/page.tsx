@@ -55,7 +55,7 @@ const ProjectPage = ({ params }: { params: { id: string } }) => {
 
         <FloatingNav navItems={navItems} />
         <ThemeToggle />
-        <ProjectHero project={project} />
+        <ProjectHero project={project as any} />
         <ProjectSectionGoals project={project as any} />
         <Carousel project={project as any} />
         <ProjectProblem project={project as any} />
