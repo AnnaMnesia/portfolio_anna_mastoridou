@@ -545,53 +545,97 @@ export const projects = [
   {
     id: 4,
     slug: "100-days-of-art",
-    title: "A Digital Gallery Celebrating Art & Beyond",
+    title:
+      "A digital museum gallery that fits in a tab because real museums close",
     name: "100 Days of Art",
     srclight: "/daysofart.gif",
     srcdark: "/daysofart.gif",
-    coverlight: "/coverlightp3.png",
-    coverdark: "/coverdarkp3.png",
+    coverlight: "/coverlightp4.png",
+    coverdark: "/coverdarkp4.png",
     year: "2023",
-    carouselImages: ["/trackerdesc.svg", "/trackermob.svg"],
+    carouselImages: [
+      "/daysartone.png",
+      "/daysarttwo.png",
+      "/daysartthree.png",
+      "/daysartfour.png",
+      "/daysartfive.png",
+      "/daysartsix.png",
+      "/daysartseven.png",
+      "/daysartseight.png",
+    ],
     overview: {
       role: "Frontend Developer & Designer",
       summary:
-        "A digital gallery exploring creativity through daily art challenges and curated collections.",
+        "100 Days of Art is a playful digital gallery built with p5.js and GSAP, designed to showcase paintings, visual experiments, and motion in a minimal, museum-like space. Each piece is presented with smooth animations and subtle interactions, turning the browser into a tiny virtual exhibition.",
+      summary1:
+        "This project wasn’t about solving a business problem — it was about mixing art, motion, and code in a way that feels calm, expressive, and slightly unnecessary (in the best way possible).",
     },
 
     section1: {
       heading: "WHY I BUILT THIS PROJECT",
       content:
-        "I built this project to move beyond basic CRUD applications and practice building a larger, more realistic frontend application.",
-      image: "/projects/nomados/challenge.png",
+        "I built this project for one simple reason: I love museums, paintings, and staring at art longer than most people find reasonable.",
+      subHeading: "I wanted to:",
+      bullets: [
+        "Create something artistic instead of another dashboard",
+        "Experiment freely with animation and visuals",
+        "Combine creative coding with motion design",
+        "Build a space that feels more like a gallery than a website",
+        "Give myself permission to code without optimizing everything to death",
+      ],
+      subContent:
+        "This was a “no KPIs, no deadlines, no stakeholders” project — just vibes, art, and JavaScript.",
     },
     section2: {
-      heading: "Design & Development Process",
-      content:
-        "We focused on modular architecture, performance optimization, and intuitive UX patterns to ensure a smooth experience across devices.",
-      image: "/projects/nomados/process.png",
+      heading: "CONTEXT AND “PROBLEM” (VERY SERIOUS)",
+      subHeading: "WHAT IS 100 DAYS OF ART",
+      content: "It’s a minimal digital gallery where:",
+      bullets: [
+        "Art takes center stage",
+        "Animations guide the experience instead of UI components",
+        "Motion is part of the storytelling",
+        "p5.js handles the creative visuals",
+        "GSAP handles the smoothness (because of course it does)",
+      ],
+      subContent:
+        "Both experiences live in the same application but serve very different needs.",
+      headingProblem: '"THE PROBLEM"',
+      contentProblem: "There was no real problem.",
+      bulletsProblem: [
+        "I wasn’t fixing productivity. I wasn’t scaling anything.",
+        "I just wanted a place where code could behave more like a brush than a tool.",
+      ],
+      subContentProblem: "Also, museums close. Browsers don’t.",
     },
     section3: {
-      heading: "Outcome",
+      heading: "THE TECHNICAL STACK",
+      subHeading: "A LITTLE ARCHITECTURE",
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This stack was perfect for rapid experimentation, creative coding, and building something visual without worrying about frameworks, state management, or best practices yelling at me.",
+      imageStack: "/daysofartstack.svg",
+      imageDesc: "technical stack",
     },
     section4: {
-      heading: "Outcome",
+      heading: "IMPACT AND LEARNING",
+      subHeadingImpact: "IMPACT",
+      impactGif: "/impact.gif",
+      bulletsImpact: [
+        "Built a complete application with both public and admin experiences",
+        "Built a personal creative outlet using code",
+        "Explored animation as a primary design element",
+        "Combined art and programming in a way that felt natural",
+        "Created something just for the joy of making it",
+      ],
+      subHeadingLearn: "WHAT DID I LEARN FROM THIS?",
+      bulletsLearn: [
+        "How motion can shape emotion",
+        "How little UI you actually need sometimes",
+        "How fun it is to build without constraints",
+        "That not every project needs a backend (or a purpose)",
+      ],
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This project exists because I wanted it to exist — and honestly, that’s enough.",
     },
-    section5: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-    section6: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-
     demoUrl: "https://100-days-of-art.vercel.app",
   },
   {
@@ -599,51 +643,84 @@ export const projects = [
     slug: "notes",
     title: "React Notes App",
     name: "Notes",
-    srclight: "/p6.png",
-    srcdark: "/p6.png",
-    coverlight: "/coverlightp3.png",
-    coverdark: "/coverdarkp3.png",
+    srclight: "/srclightp5.png",
+    srcdark: "/srcdarkp5.png",
+    coverlight: "/coverlightp5.png",
+    coverdark: "/coverdarkp5.png",
     year: "2022",
-    cover: "/projects/trackerx/cover.png",
-    carouselImages: ["/trackerdesc.svg", "/trackermob.svg"],
-
+    carouselImages: ["/reactapplight.svg", "/reactappdark.svg"],
     overview: {
       role: "Frontend Developer",
       summary:
-        "A lightweight React application for creating, organizing, and managing notes efficiently.",
+        "React Notes App is a simple note-taking application built during my early React learning phase. It allows users to add, delete, and search notes, with all data persisted in the browser using localStorage.",
+      summary1:
+        "This project focuses on understanding core React fundamentals rather than advanced features — state management, side effects, component structure, and basic UI behavior — making it a foundational learning milestone.",
     },
 
     section1: {
       heading: "WHY I BUILT THIS PROJECT",
       content:
-        "I built this project to move beyond basic CRUD applications and practice building a larger, more realistic frontend application.",
-      image: "/projects/nomados/challenge.png",
+        "I built this project while learning React to move past tutorials and start building something functional on my own.",
+      subHeading: "My main goals were to:",
+      bullets: [
+        "Understand how React state works in real usage",
+        "Practice updating UI based on user input",
+        "Learn how useEffect interacts with browser APIs",
+        "Build confidence by completing a full, usable app",
+        "Create something small, simple, and actually useful",
+      ],
+      subContent:
+        "This was one of those projects where things finally clicked.",
     },
     section2: {
-      heading: "Design & Development Process",
-      content:
-        "We focused on modular architecture, performance optimization, and intuitive UX patterns to ensure a smooth experience across devices.",
-      image: "/projects/nomados/process.png",
+      heading: "CONTEXT AND PROBLEM",
+      subHeading: "WHAT IS THE REACT NOTES APP",
+      content: "The app allows users to:",
+      bullets: [
+        "Add notes",
+        "Delete notes",
+        "Search through existing notes",
+        "Toggle between light and dark mode",
+        "Persist data across page refreshes",
+        "Everything runs entirely in the browser — no backend, no accounts, no setup.",
+      ],
+      headingProblem: "THE PROBLEM",
+      contentProblem: "When learning React, it’s easy to:",
+      bulletsProblem: [
+        "Understand concepts in isolation",
+        "But struggle to combine them into a working app",
+        "Or rely too heavily on examples without building independently",
+      ],
+      subContentProblem:
+        "I wanted a project that forced me to manage state, effects, and UI updates together in one place.",
     },
     section3: {
-      heading: "Outcome",
+      heading: "THE TECHNICAL STACK",
+      subHeading: "A LITTLE ARCHITECTURE",
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This stack was ideal for learning React fundamentals without additional abstractions or tooling complexity.",
+      imageStack: "/noteappStack.svg",
+      imageDesc: "technical stack",
     },
     section4: {
-      heading: "Outcome",
+      heading: "IMPACT AND LEARNING",
+      subHeadingImpact: "IMPACT",
+      impactGif: "/impact.gif",
+      bulletsImpact: [
+        "Built a complete training load tracking workflow",
+        "Implemented persistent state using browser storage",
+        "Created a responsive, theme-aware UI",
+        "Gained confidence building without step-by-step guidance",
+      ],
+      subHeadingLearn: "WHAT DID I LEARN FROM THIS?",
+      bulletsLearn: [
+        "How useState and useEffect work together",
+        "How to persist and rehydrate state",
+        "How to structure small React components",
+        "How user actions drive UI updates",
+      ],
       content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-    section5: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
-    },
-    section6: {
-      heading: "Outcome",
-      content:
-        "NomadOS successfully delivered a fast, responsive, and user-centric travel platform powered by AI-driven insights.",
+        "This project marked a turning point from learning React to building with React.",
     },
 
     demoUrl: "https://react-notes-app-weld.vercel.app",
