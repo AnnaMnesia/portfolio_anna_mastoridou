@@ -15,25 +15,26 @@ const AboutHero = () => {
             </h2>
             <p className="font-normal text-sm md:text-md dark:text-gray-300">
               {" "}
-              I&apos;m a frontend developer currently based in Düsseldorf,
-              Germany. A marketer turned developer, drawn to building things
-              that people actually enjoy using.
+              I&apos;m a full-stack developer and hands-on problem-solver who
+              combines strong technical expertise with a practical, real-world
+              approach to building software. With experience across startups,
+              client projects, and product teams, I bring a solid understanding
+              of how modern web applications are designed, developed, and scaled
+              in professional environments.
             </p>{" "}
             <p className="mt-2 font-normal text-sm md:text-md dark:text-gray-300">
               {" "}
-              I&apos;ve always been fascinated by creating something from
-              nothing. What started as curiosity for digital experiences quickly
-              became a focus on frontend development—where structure,
-              performance, and usability come together to shape the experience,
-              not just the interface.
+              Specializing in frontend and full-stack development, I focus on
+              creating clean, reliable, and user-centered solutions. My skills
+              shine particularly in startup environments, where I&apos;ve worked
+              closely with development teams and contributed to guiding products
+              from concept to market.
             </p>{" "}
             <p className="mt-2 font-normal text-sm md:text-md dark:text-gray-300">
               {" "}
-              I currently work as a freelance frontend developer. Previously, I
-              worked part-time at Coursfy, building and maintaining production
-              user interfaces, and before that as a Tutor at DCI Digital Career
-              Institute, where I taught React and JavaScript while training as a
-              developer myself.
+              I&apos;m at my best when tackling complex challenges, drawing on both
+              technical knowledge and creative thinking to turn ideas into
+              impactful solutions.
             </p>
           </div>
         </div>

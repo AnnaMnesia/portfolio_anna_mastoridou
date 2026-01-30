@@ -11,6 +11,34 @@ const AboutBio = () => {
         </div>
         <div className="relative mx-auto max-w-3xl">
           <h2 className="mt-14 text-sm md:text-sm font-light text-gray-400 mb-2">
+            BEYOND THE CODE
+          </h2>
+          <p className="font-normal text-sm md:text-md dark:text-gray-300">
+            Beyond the code, I bring the same discipline and energy to my
+            personal life. I’m a dedicated athlete who enjoys pushing limits —
+            from Hyrox training to half marathons around the world. Many of
+            these races are tied to causes close to my heart, raising money for
+            people with disabilities, cancer research, and those in need.
+            <p className="mt-2 font-normal text-sm md:text-md dark:text-gray-300">
+              When I’m not coding or training, I enjoy video games and
+              challenging puzzles — anything that keeps me learning and engaged.
+            </p>
+          </p>
+        </div>
+        <div className="relative mx-auto max-w-3xl">
+          <h2 className="mt-4 text-sm md:text-sm font-light text-gray-400 mb-2">
+            HOW I WORK
+          </h2>
+          <p className="font-normal text-sm md:text-md dark:text-gray-300">
+            Colleagues and clients describe me as dedicated, agile, and
+            solutions-focused — someone who never stops learning. My genuine
+            enthusiasm for new challenges and delivering meaningful results
+            inspires the teams I work with and makes me the kind of developer
+            people enjoy collaborating with.
+          </p>
+        </div>
+        <div className="relative mx-auto max-w-3xl">
+          <h2 className="mt-4 text-sm md:text-sm font-light text-gray-400 mb-2">
             MY DRIVE
           </h2>
           <p className="font-normal text-sm md:text-md dark:text-gray-300">
