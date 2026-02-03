@@ -63,19 +63,19 @@ export const testimonials = [
 export const experiences = [
   {
     period: "Jan 2025 - Present",
-    role: "Frontend-Focused Full-Stack Developer — Independent Projects",
+    role: "Frontend-Focused Full-Stack Developer | Independent Projects",
     company: "Self-employed",
     logo: "",
   },
   {
     period: "Jul 2024 - Dec 2024",
-    role: "Full-Stack Developer Intern (Frontend-Focused)",
+    role: "Full-Stack Developer (Frontend-Focused) | Internship",
     company: "Coursfy",
     logo: "https://thehub-io.imgix.net/files/s3/20250128142631-850b8cdbc94261b0373a009b6618424a.png?fit=crop&w=300&h=300&auto=format&q=60",
   },
   {
     period: "Jan 2024 - Feb 2024",
-    role: "Frontend Developer & Designer - Mandatory Internship (DCI Program)",
+    role: "Frontend Developer & Designer | Mandatory Internship (DCI Program)",
     company: "Rotoy ApS",
     logo: "https://rotoy.dk/fav.png",
   },

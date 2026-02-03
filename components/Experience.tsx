@@ -20,7 +20,7 @@ const Experience = () => {
           {experiences.map((exp, index) => (
             <div
               key={index}
-              className="flex md:flex-row flex-col justify-between items-star"
+              className="flex md:flex-row flex-col justify-between items-start"
             >
               <p className="text-sm text-gray-400 min-w-[150px]">
                 {exp.period}
@@ -28,7 +28,7 @@ const Experience = () => {
 
               <div className="flex flex-row flex-wrap items-center gap-2">
                 <p className="text-sm font-medium">{exp.role}</p>
-                <div className="flex gap-1 items-center ">
+                <div className="flex gap-2 items-center ">
                   <p className="text-md text-gray-400">
                     {exp.company === "Self-employed" ? "as" : "at"}
                   </p>
