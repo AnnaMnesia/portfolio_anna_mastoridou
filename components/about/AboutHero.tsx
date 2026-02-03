@@ -15,8 +15,8 @@ const AboutHero = () => {
             </h2>
             <p className="font-normal text-sm md:text-md dark:text-gray-300">
               {" "}
-              I&apos;m a full-stack developer and hands-on problem-solver who
-              combines strong technical expertise with a practical, real-world
+              I&apos;m a Full-Stack Web & Software Developer with a strong focus on frontend development and REST API integration.
+              Hands-on problem-solver who combines strong technical expertise with a practical, real-world
               approach to building software. With experience across startups,
               client projects, and product teams, I bring a solid understanding
               of how modern web applications are designed, developed, and scaled
