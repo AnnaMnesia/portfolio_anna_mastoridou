@@ -36,50 +36,6 @@ export const carouselImages = [
   "/stripe.svg",
 ];
 
-// export const projects = [
-//   {
-//     id: 1,
-//     title: "AI-Powered Travel Agency Platform",
-//     name: "NomadOS",
-//     src: "/p1.png",
-//     link: "https://training-load-tracker.vercel.app",
-//     year: "2026",
-//   },
-//   {
-//     id: 2,
-//     title: "Training Load Tracker",
-//     name: "TrackerX",
-//     src: "/p7.png",
-//     link: "https://training-load-tracker.vercel.app",
-//     year: "2025",
-//   },
-//   {
-//     id: 3,
-//     title: "Storage Management Platform",
-//     name: "Metafortify",
-//     src: "/p3.png",
-//     link: "https://metafortify.vercel.app/sign-in",
-//     year: "2025",
-//   },
-
-//   {
-//     id: 4,
-//     title: "A Digital Gallery Celebrating Art & Beyond",
-//     name: "100 Days of Art",
-//     src: "/p2.svg",
-//     link: "https://100-days-of-art.vercel.app",
-//     year: "2023",
-//   },
-//   {
-//     id: 5,
-//     title: "React Notes App",
-//     name: "Notes",
-//     src: "/p6.png",
-//     link: "https://react-notes-app-weld.vercel.app",
-//     year: "2022",
-//   },
-// ];
-
 export const testimonials = [
   {
     quote:
